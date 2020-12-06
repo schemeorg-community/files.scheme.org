@@ -15,3 +15,9 @@
       (original-url "http://t3x.org/s9fes/s9fes-20181205.tgz")
       (scheme-id "s9fes")
       (scheme-release "20181205"))
+
+(file (name "sigscheme-0.9.1.tar.gz")
+      (tagline "SigScheme (source code)")
+      (original-url "https://github.com/uim/sigscheme/releases/download/0.9.1/sigscheme-0.9.1.tar.gz")
+      (scheme-id "sigscheme")
+      (scheme-release "0.9.1"))
