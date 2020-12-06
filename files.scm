@@ -1,0 +1,11 @@
+(file (name "s9core-20181205.tgz")
+      (tagline "Scheme 9 from Empty Space")
+      (original-url "http://t3x.org/s9fes/s9core-20181205.tgz")
+      (scheme-id "s9fes")
+      (scheme-release "20181205"))
+
+(file (name "s9fes-20181205.tgz")
+      (tagline "Scheme 9 from Empty Space")
+      (original-url "http://t3x.org/s9fes/s9fes-20181205.tgz")
+      (scheme-id "s9fes")
+      (scheme-release "20181205"))
