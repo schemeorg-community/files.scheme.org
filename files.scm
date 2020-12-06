@@ -1,3 +1,9 @@
+(file (name "gambit-v4_9_3.tgz")
+      (tagline "Gambit Scheme (source code)")
+      (original-url "https://www.iro.umontreal.ca/~gambit/download/gambit/v4.9/source/gambit-v4_9_3.tgz")
+      (scheme-id "gambit")
+      (scheme-release "4.9.3"))
+
 (file (name "s9core-20181205.tgz")
       (tagline "Scheme 9 from Empty Space")
       (original-url "http://t3x.org/s9fes/s9core-20181205.tgz")
