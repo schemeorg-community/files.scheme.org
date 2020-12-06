@@ -4,6 +4,11 @@
       (scheme-id "gambit")
       (scheme-release "4.9.3"))
 
+(file (name "r7rs.pdf")
+      (tagline "Revised^7 Report on the Algorithmic Language Scheme (official standard)")
+      (original-url "https://raw.githubusercontent.com/johnwcowan/r7rs-spec/errata/rnrs/r7rs-official.pdf")
+      (rnrs 7))
+
 (file (name "s9core-20181205.tgz")
       (tagline "Scheme 9 from Empty Space")
       (original-url "http://t3x.org/s9fes/s9core-20181205.tgz")
