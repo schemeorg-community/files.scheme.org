@@ -16,9 +16,13 @@
         (let ((form (read)))
           (if (eof-object? form) (reverse forms) (loop (cons form forms))))))
 
+    (define (read-files/raw)
+      (map cdr (filter (lambda (form)
+                         (and (pair? form) (eq? 'file (car form))))
+                       (read-all))))
+
     (define (read-files)
-      (map (lambda (alist)
-             (map pair->list (solve (map list->pair alist))))
-           (map cdr (filter (lambda (form)
-                              (and (pair? form) (eq? 'file (car form))))
-                            (read-all)))))))
+      (let ((files (read-files/raw)))
+        (map (lambda (file)
+               (map pair->list (solve (map list->pair file))))
+             files)))))
