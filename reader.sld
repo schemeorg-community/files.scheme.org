@@ -1,8 +1,30 @@
 (define-library (reader)
-  (export read-files)
+  (export get-string get-string-optional read-files)
   (import (scheme base) (scheme read) (srfi 1))
   (import (solver))
   (begin
+
+    (define (get-one-from-entry valid? entry)
+      (let ((tail (cdr entry)))
+        (if (and (= 1 (length tail)) (valid? (car tail)))
+            (car tail)
+            (error "Bad alist entry"))))
+
+    (define (get-one-optional valid? key alist)
+      (let ((entry (assoc key alist)))
+        (if entry (get-one-from-entry valid? entry) #f)))
+
+    (define (get-one valid? key alist)
+      (let ((entry (assoc key alist)))
+        (if entry
+            (get-one-from-entry valid? entry)
+            (error "Missing key" key))))
+
+    (define (get-string key alist)
+      (get-one string? key alist))
+
+    (define (get-string-optional key alist)
+      (get-one-optional string? key alist))
 
     (define (list->pair list)
       (if (= 2 (length list))
