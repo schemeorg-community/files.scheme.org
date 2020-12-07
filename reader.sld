@@ -26,10 +26,12 @@
     (define (get-string-optional key alist)
       (get-one-optional string? key alist))
 
-    (define (ordered-by? <= list)
-      (or (null? list)
-          (let loop ((a (car list)) (bs (cdr list)))
-            (or (null? bs) (and (<= a (car bs)) (loop (car bs) (cdr bs)))))))
+    (define (wrong-order <= lis)
+      (or (null? lis)
+          (let loop ((a (car lis)) (bs (cdr lis)))
+            (if (null? bs) #f
+                (let ((b (car bs)))
+                  (if (<= b a) (list a b) (loop b (cdr bs))))))))
 
     (define (list->pair list)
       (if (= 2 (length list))
@@ -52,7 +54,10 @@
       (let ((files (map (lambda (file)
                           (map pair->list (solve (map list->pair file))))
                         (read-files/raw))))
-        (let ((names (map (lambda (file) (get-string 'name file)) files)))
-          (unless (ordered-by? string-ci<=? names)
-            (error "files.scm is not in alphabetical order")))
+        (let* ((names (map (lambda (file) (get-string 'name file)) files))
+               (wrong (wrong-order string-ci<=? names)))
+          (when wrong
+            (if (string=? (car wrong) (cadr wrong))
+                (error "Filenames are duplicate" wrong)
+                (error "Filenames are not in alphabetical order" wrong))))
         files))))
