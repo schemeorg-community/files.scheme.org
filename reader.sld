@@ -1,6 +1,6 @@
 (define-library (reader)
   (export get-string get-string-optional read-files)
-  (import (scheme base) (scheme read) (srfi 1))
+  (import (scheme base) (scheme char) (scheme read) (srfi 1))
   (import (solver))
   (begin
 
@@ -26,6 +26,11 @@
     (define (get-string-optional key alist)
       (get-one-optional string? key alist))
 
+    (define (ordered-by? <= list)
+      (or (null? list)
+          (let loop ((a (car list)) (bs (cdr list)))
+            (or (null? bs) (and (<= a (car bs)) (loop (car bs) (cdr bs)))))))
+
     (define (list->pair list)
       (if (= 2 (length list))
           (cons (car list) (cadr list))
@@ -44,7 +49,10 @@
                        (read-all))))
 
     (define (read-files)
-      (let ((files (read-files/raw)))
-        (map (lambda (file)
-               (map pair->list (solve (map list->pair file))))
-             files)))))
+      (let ((files (map (lambda (file)
+                          (map pair->list (solve (map list->pair file))))
+                        (read-files/raw))))
+        (let ((names (map (lambda (file) (get-string 'name file)) files)))
+          (unless (ordered-by? string-ci<=? names)
+            (error "files.scm is not in alphabetical order")))
+        files))))
