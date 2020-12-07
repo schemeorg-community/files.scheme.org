@@ -1,26 +1,6 @@
 (import (scheme base) (scheme file) (scheme write))
 (import (reader))
 
-(define (get-one-from-entry valid? entry)
-  (let ((tail (cdr entry)))
-    (if (and (= 1 (length tail)) (valid? (car tail)))
-        (car tail)
-        (error "Bad alist entry"))))
-
-(define (get-one-optional valid? key alist)
-  (let ((entry (assoc key alist)))
-    (if entry (get-one-from-entry valid? entry) #f)))
-
-(define (get-one valid? key alist)
-  (let ((entry (assoc key alist)))
-    (if entry (get-one-from-entry valid? entry) (error "Missing key" key))))
-
-(define (get-string key alist)
-  (get-one string? key alist))
-
-(define (get-string-optional key alist)
-  (get-one-optional string? key alist))
-
 (define (map/odd f xs)
   (let loop ((acc '()) (xs xs) (odd? #f))
     (if (null? xs) (reverse acc)
