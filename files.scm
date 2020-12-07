@@ -90,6 +90,20 @@
       (scheme-id "sigscheme")
       (scheme-release "0.9.1"))
 
+(file (name "siod-3.0.tar.gz")
+      (title "SIOD: Scheme in One Defun")
+      (note "source code")
+      (original-url "ftp://ftp.cs.indiana.edu/pub/scheme-repository/imp/siod-3.0.tar.gz")
+      (scheme-id "siod")
+      (scheme-release "3.0"))
+
+(file (name "siod-3.2.tar.gz")
+      (title "SIOD: Scheme in One Defun")
+      (note "source code")
+      (original-url "ftp://ftp.cs.indiana.edu/pub/scheme-repository/imp/siod-3.2.tar.gz")
+      (scheme-id "siod")
+      (scheme-release "3.2"))
+
 (file (name "tinyscheme-1.42.tar.gz")
       (title "TinyScheme")
       (note "source code")
