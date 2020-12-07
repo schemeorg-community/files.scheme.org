@@ -20,6 +20,7 @@
       (title "Revised^6 Report on the Algorithmic Language Scheme")
       (note "unofficial errata-corrected version from Göran Weinholt")
       (original-url "https://weinholt.se/scheme/r6rs/r6rs.pdf")
+      (timestamp "2020-08-30T16:07:21Z")
       (rnrs 6))
 
 (file (name "errata-corrected-r7rs.pdf")
