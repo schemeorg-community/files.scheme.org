@@ -8,8 +8,7 @@
 (define (for-each/between visit between xs)
   (unless (null? xs)
     (visit (car xs))
-    (let loop ((xs (cdr xs)))
-      (unless (null? xs) (between) (visit (car xs)) (loop (cdr xs))))))
+    (for-each (lambda (x) (between) (visit x)) (cdr xs))))
 
 (define (main)
   (let ((files (with-input-from-file "files.scm" read-files)))
