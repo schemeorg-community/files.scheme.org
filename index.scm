@@ -1,12 +1,24 @@
 (import (scheme base) (scheme file) (scheme read) (scheme write))
 
-(define (get-one valid? key alist)
-  (let ((tail (cdr (or (assoc key alist) (error "Missing key" key)))))
+(define (get-one-from-entry valid? entry)
+  (let ((tail (cdr entry)))
     (if (and (= 1 (length tail)) (valid? (car tail)))
         (car tail)
         (error "Bad alist entry"))))
 
-(define (get-string  key alist) (get-one string?  key alist))
+(define (get-one-optional valid? key alist)
+  (let ((entry (assoc key alist)))
+    (if entry (get-one-from-entry valid? entry) #f)))
+
+(define (get-one valid? key alist)
+  (let ((entry (assoc key alist)))
+    (if entry (get-one-from-entry valid? entry) (error "Missing key" key))))
+
+(define (get-string key alist)
+  (get-one string? key alist))
+
+(define (get-string-optional key alist)
+  (get-one-optional string? key alist))
 
 (define (read-all)
   (let loop ((xs '()))
@@ -47,7 +59,7 @@
                            (else (cdr x)))))
            (display ">")
            (for-each display-sxml body)
-           (unless (memq (car x) '(meta))
+           (unless (memq (car x) '(br meta))
              (display* "</" (car x) ">"))))
         ((string? x)
          (string-for-each display-char x))
@@ -61,7 +73,8 @@
       (title "Scheme File Archive")
       (meta (@ (charset "UTF-8")))
       (style ""
-        "body { font-family: sans-serif; }"))
+        "body { font-family: sans-serif; }"
+        "td { vertical-align: top; }"))
      (body
       (h1 "Scheme File Archive")
       (p " Source is in a "
@@ -73,7 +86,11 @@
                   (let* ((file (cdr form))
                          (name (get-string 'name file)))
                     `(tr (td (kbd (a (@ (href ,name)) ,name)))
-                         (td ,@(superscripts (get-string 'tagline file)))))))
+                         (td ,@(superscripts (get-string 'title file))
+                             ,@(let ((note (get-string-optional 'note file)))
+                                 (if note
+                                     `((br) "(" ,@(superscripts note) ")")
+                                     '())))))))
               files))))))
 
 (define (main)
