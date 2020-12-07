@@ -9,4 +9,4 @@
 
 * If the file is not retrievable programmatically using a simple HTTP
   or FTP downloader (e.g. `wget`), and needs manual navigation of some
-  kind, use `indirect-original-url` instead.
+  kind, use `manual-original-url` instead.
