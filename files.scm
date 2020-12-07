@@ -115,6 +115,6 @@
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
       (title "TinyScheme")
       (note "source code")
-      (indirect-original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/{scheme-id}-{scheme-version}/{name}/download")
+      (manual-original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/{scheme-id}-{scheme-version}/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.42"))
