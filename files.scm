@@ -9,6 +9,26 @@
       (original-url "https://schemers.org/Documents/Standards/R5RS/r5rs.pdf")
       (rnrs 5))
 
+(file (name "r6rs-app.pdf")
+      (tagline "Revised^6 Report on the Algorithmic Language Scheme -- Non-Normative Appendices (official standard)")
+      (original-url "http://www.r6rs.org/final/r6rs-app.pdf")
+      (rnrs 6))
+
+(file (name "r6rs-lib.pdf")
+      (tagline "Revised^6 Report on the Algorithmic Language Scheme -- Standard Libraries (official standard)")
+      (original-url "http://www.r6rs.org/final/r6rs-lib.pdf")
+      (rnrs 6))
+
+(file (name "r6rs-rationale.pdf")
+      (tagline "Revised^6 Report on the Algorithmic Language Scheme -- Rationale (official standard)")
+      (original-url "http://www.r6rs.org/final/r6rs-rationale.pdf")
+      (rnrs 6))
+
+(file (name "r6rs.pdf")
+      (tagline "Revised^6 Report on the Algorithmic Language Scheme (official standard)")
+      (original-url "http://www.r6rs.org/final/r6rs.pdf")
+      (rnrs 6))
+
 (file (name "r7rs.pdf")
       (tagline "Revised^7 Report on the Algorithmic Language Scheme (official standard)")
       (original-url "https://raw.githubusercontent.com/johnwcowan/r7rs-spec/errata/rnrs/r7rs-official.pdf")
