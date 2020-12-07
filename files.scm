@@ -109,4 +109,5 @@
       (title "TinyScheme")
       (note "source code")
       (indirect-original-url "https://sourceforge.net/projects/tinyscheme/files/tinyscheme/tinyscheme-1.42/tinyscheme-1.42.tar.gz/download")
+      (scheme-id "tinyscheme")
       (scheme-release "1.42"))
