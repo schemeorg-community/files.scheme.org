@@ -1,9 +1,11 @@
 (import (scheme base) (scheme file) (scheme read) (scheme write) (srfi 1))
-(import (solver))
+(import (reader))
 
 (define (get-one-from-entry valid? entry)
   (let ((tail (cdr entry)))
-    (if (valid? tail) tail (error "Bad alist entry"))))
+    (if (and (= 1 (length tail)) (valid? (car tail)))
+        (car tail)
+        (error "Bad alist entry"))))
 
 (define (get-one-optional valid? key alist)
   (let ((entry (assoc key alist)))
@@ -23,11 +25,6 @@
   (let loop ((acc '()) (xs xs) (odd? #f))
     (if (null? xs) (reverse acc)
         (loop (cons (f (car xs) odd?) acc) (cdr xs) (not odd?)))))
-
-(define (read-all)
-  (let loop ((xs '()))
-    (let ((x (read)))
-      (if (eof-object? x) (reverse xs) (loop (cons x xs))))))
 
 (define (superscripts s)
   (let ((n (string-length s)))
@@ -103,26 +100,8 @@
                                        ")"))))))))
           files))))))
 
-(define (read-files-as-alists)
-  (define (malformed entry) (error "Malformed alist entry" entry))
-  (map solve
-       (map (lambda (form)
-              (let ((alist (cdr form)))
-                (map (lambda (entry)
-                       (if (not (= 2 (length entry)))
-                           (malformed entry)
-                           (let ((key (car entry))
-                                 (val (cadr entry)))
-                             (if (and (symbol? key)
-                                      (or (string? val) (number? val)))
-                                 (cons key val)
-                                 (malformed entry)))))
-                     alist)))
-            (filter (lambda (form) (and (pair? form) (eq? 'file (car form))))
-                    (read-all)))))
-
 (define (main)
-  (let ((files (with-input-from-file "files.scm" read-files-as-alists)))
+  (let ((files (with-input-from-file "files.scm" read-files)))
     (with-output-to-file "files/index.html"
       (lambda () (display-page files)))))
 
