@@ -20,6 +20,11 @@
 (define (get-string-optional key alist)
   (get-one-optional string? key alist))
 
+(define (map/odd f xs)
+  (let loop ((acc '()) (xs xs) (odd? #f))
+    (if (null? xs) (reverse acc)
+        (loop (cons (f (car xs) odd?) acc) (cdr xs) (not odd?)))))
+
 (define (read-all)
   (let loop ((xs '()))
     (let ((x (read)))
@@ -74,24 +79,32 @@
       (meta (@ (charset "UTF-8")))
       (style ""
         "body { font-family: sans-serif; }"
-        "td { vertical-align: top; }"))
+        "td { vertical-align: top; }"
+        ".even { background-color: #dde; }"
+        ".odd { }"
+        ".note { color: teal; }"))
      (body
       (h1 "Scheme File Archive")
       (p " Source is in a "
          (a (@ (href "https://github.com/schemeorg/files.scheme.org"))
             "git repository") ".")
       (table
-       ,@(map (lambda (form)
-                (when (eq? 'file (car form))
-                  (let* ((file (cdr form))
-                         (name (get-string 'name file)))
-                    `(tr (td (kbd (a (@ (href ,name)) ,name)))
-                         (td ,@(superscripts (get-string 'title file))
-                             ,@(let ((note (get-string-optional 'note file)))
-                                 (if note
-                                     `((br) "(" ,@(superscripts note) ")")
-                                     '())))))))
-              files))))))
+       ,@(map/odd
+          (lambda (form odd?)
+            (when (eq? 'file (car form))
+              (let* ((file (cdr form))
+                     (name (get-string 'name file)))
+                `(tr (@ (class ,(if odd? "odd" "even")))
+                     (td (kbd (a (@ (href ,name)) ,name)))
+                     (td ,@(superscripts (get-string 'title file))
+                         ,@(let ((note (get-string-optional 'note file)))
+                             (if (not note) '()
+                                 `((br)
+                                   (span (@ (class "note"))
+                                         "("
+                                         ,@(superscripts note)
+                                         ")")))))))))
+          files))))))
 
 (define (main)
   (let ((files (with-input-from-file "files.scm" read-all)))
