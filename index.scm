@@ -1,4 +1,4 @@
-(import (scheme base) (scheme file) (scheme read) (scheme write) (srfi 1))
+(import (scheme base) (scheme file) (scheme write))
 (import (reader))
 
 (define (get-one-from-entry valid? entry)
