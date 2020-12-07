@@ -75,7 +75,7 @@
    `(html
      (@ (lang "en"))
      (head
-      (title "Scheme File Archive")
+      (title "Scheme Files")
       (meta (@ (charset "UTF-8")))
       (style ""
         "body { font-family: sans-serif; }"
@@ -84,7 +84,7 @@
         ".odd { }"
         ".note { color: teal; }"))
      (body
-      (h1 "Scheme File Archive")
+      (h1 "Scheme Files")
       (p " Source is in a "
          (a (@ (href "https://github.com/schemeorg/files.scheme.org"))
             "git repository") ".")
