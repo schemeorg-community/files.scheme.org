@@ -1,7 +1,7 @@
 # Scheme Files (files.scheme.org)
 
-* No original content. Do modify or aggregate any files for the sake
-  of `files.scheme.org`. Only store bit-identical copies of files that
+* No original content. Do modify or merge any files for the sake of
+  `files.scheme.org`. Only store bit-identical copies of files that
   have been released elsewhere.
 
 * Download a copy of the file using `wget` and record the URL as
