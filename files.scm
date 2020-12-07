@@ -1,3 +1,28 @@
+(file (name "errata-corrected-r6rs-app.pdf")
+      (tagline "Revised^6 Report on the Algorithmic Language Scheme -- Non-Normative Appendices (unofficial errata-corrected version from Göran Weinholt)")
+      (original-url "https://weinholt.se/scheme/r6rs/r6rs-app.pdf")
+      (rnrs 6))
+
+(file (name "errata-corrected-r6rs-lib.pdf")
+      (tagline "Revised^6 Report on the Algorithmic Language Scheme -- Standard Libraries (unofficial errata-corrected version from Göran Weinholt)")
+      (original-url "https://weinholt.se/scheme/r6rs/r6rs-lib.pdf")
+      (rnrs 6))
+
+(file (name "errata-corrected-r6rs-rationale.pdf")
+      (tagline "Revised^6 Report on the Algorithmic Language Scheme -- Rationale (unofficial errata-corrected version from Göran Weinholt)")
+      (original-url "https://weinholt.se/scheme/r6rs/r6rs-rationale.pdf")
+      (rnrs 6))
+
+(file (name "errata-corrected-r6rs.pdf")
+      (tagline "Revised^6 Report on the Algorithmic Language Scheme (unofficial errata-corrected version from Göran Weinholt)")
+      (original-url "https://weinholt.se/scheme/r6rs/r6rs.pdf")
+      (rnrs 6))
+
+(file (name "errata-corrected-r7rs.pdf")
+      (tagline "Revised^7 Report on the Algorithmic Language Scheme (unofficial errata-corrected version from John Cowan)")
+      (original-url "https://raw.githubusercontent.com/johnwcowan/r7rs-spec/errata/rnrs/r7rs.pdf")
+      (rnrs 7))
+
 (file (name "gambit-v4_9_3.tgz")
       (tagline "Gambit Scheme (source code)")
       (original-url "https://www.iro.umontreal.ca/~gambit/download/gambit/v4.9/source/gambit-v4_9_3.tgz")
