@@ -4,6 +4,11 @@
       (scheme-id "gambit")
       (scheme-release "4.9.3"))
 
+(file (name "r5rs.pdf")
+      (tagline "Revised^5 Report on the Algorithmic Language Scheme (official standard; PDF by Brad Lucier)")
+      (original-url "https://schemers.org/Documents/Standards/R5RS/r5rs.pdf")
+      (rnrs 5))
+
 (file (name "r7rs.pdf")
       (tagline "Revised^7 Report on the Algorithmic Language Scheme (official standard)")
       (original-url "https://raw.githubusercontent.com/johnwcowan/r7rs-spec/errata/rnrs/r7rs-official.pdf")
