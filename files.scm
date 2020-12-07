@@ -89,3 +89,9 @@
       (original-url "https://github.com/uim/sigscheme/releases/download/0.9.1/sigscheme-0.9.1.tar.gz")
       (scheme-id "sigscheme")
       (scheme-release "0.9.1"))
+
+(file (name "tinyscheme-1.42.tar.gz")
+      (title "TinyScheme")
+      (note "source code")
+      (indirect-original-url "https://sourceforge.net/projects/tinyscheme/files/tinyscheme/tinyscheme-1.42/tinyscheme-1.42.tar.gz/download")
+      (scheme-release "1.42"))
