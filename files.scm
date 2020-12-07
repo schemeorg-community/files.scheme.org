@@ -83,12 +83,12 @@
       (scheme-id "s9fes")
       (scheme-release "20181205"))
 
-(file (name "sigscheme-0.9.1.tar.gz")
-      (title "SigScheme")
+(file (name "scsh-0.5.0.tar.gz")
+      (title "scsh Scheme shell")
       (note "source code")
-      (original-url "https://github.com/uim/sigscheme/releases/download/0.9.1/sigscheme-0.9.1.tar.gz")
-      (scheme-id "sigscheme")
-      (scheme-release "0.9.1"))
+      (original-url "ftp://ftp.cs.indiana.edu/pub/scheme-repository/imp/scsh-0.5.0.tar.gz")
+      (scheme-id "scsh")
+      (scheme-release "0.5.0"))
 
 (file (name "siod-3.0.tar.gz")
       (title "SIOD: Scheme in One Defun")
