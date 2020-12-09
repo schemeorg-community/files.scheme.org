@@ -295,6 +295,11 @@
       (scheme-id "loko")
       (scheme-version "0.7.0"))
 
+(file (name "oscheme-19950317.tar.gz")
+      (title "Oscheme (Objective Scheme)")
+      (note "Scheme implementation; source code; no version number in archive")
+      (original-url "ftp://ftp.cs.indiana.edu/pub/scheme-repository/imp/oscheme.tar.gz"))
+
 (file (name "r2rs-nbs.pdf")
       (title "The Revised Revised Report on Scheme or An UnCommon Lisp (AI Memo No. 848)")
       (note "also known as R2RS; scanned OCR PDF from National Bureau of Standards")
