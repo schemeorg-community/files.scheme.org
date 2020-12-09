@@ -796,3 +796,8 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/{scheme-id}-{scheme-version}/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.39"))
+
+(file (name "vx-scheme-20080617-repo.svndump.gz")
+      (title "Vx-Scheme")
+      (note "Scheme implementation; final Subversion repository from Google Code")
+      (original-url "https://storage.googleapis.com/google-code-archive-source/v2/code.google.com/vx-scheme/repo.svndump.gz"))
