@@ -348,6 +348,11 @@
       (original-url "https://raw.githubusercontent.com/johnwcowan/r7rs-spec/errata/rnrs/r7rs-official.pdf")
       (rnrs 7))
 
+(file (name "rabbit.lsp")
+      (title "Rabbit")
+      (note "source code from the paper Rabbit: a compiler for Scheme")
+      (original-url "http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/lang/scheme/impl/rabbit/{name}"))
+
 (file (name "s9core-{scheme-version}.tgz")
       (title "Scheme 9 from Empty Space")
       (note "Scheme implementation; source code")
