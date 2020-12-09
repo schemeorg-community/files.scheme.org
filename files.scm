@@ -295,6 +295,12 @@
       (scheme-id "loko")
       (scheme-version "0.7.0"))
 
+(file (name "r2rs-nbs.pdf")
+      (title "The Revised Revised Report on Scheme or An UnCommon Lisp (AI Memo No. 848)")
+      (note "also known as R2RS; scanned OCR PDF from National Bureau of Standards")
+      (original-url "https://apps.dtic.mil/sti/pdfs/ADA159423.pdf")
+      (rnrs 2))
+
 (file (name "r4rs.pdf")
       (title "Revised^4 Report on the Algorithmic Language Scheme")
       (note "official standard; PDF from Aubrey Jaffer")
