@@ -36,12 +36,15 @@
       (original-url "https://raw.githubusercontent.com/johnwcowan/r7rs-spec/errata/rnrs/r7rs.pdf")
       (rnrs 7))
 
-(file (name "{scheme-id}-v4_9_3.tgz")
+(file (name "{scheme-id}-v{version-major}_{version-minor}_{version-patch}.tgz")
       (title "Gambit Scheme")
       (note "source code")
-      (original-url "https://www.iro.umontreal.ca/~{scheme-id}/download/{scheme-id}/v4.9/source/{scheme-id}-v4_9_3.tgz")
+      (original-url "https://www.iro.umontreal.ca/~{scheme-id}/download/{scheme-id}/v{version-major}.{version-minor}/source/{name}")
       (scheme-id "gambit")
-      (scheme-version "4.9.3"))
+      (scheme-version "{version-major}.{version-minor}.{version-patch}")
+      (version-major 4)
+      (version-minor 9)
+      (version-patch 3))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
       (title "libscheme (Scheme implementation)")
