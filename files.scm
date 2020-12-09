@@ -297,8 +297,8 @@
 
 (file (name "r4rs.pdf")
       (title "Revised^4 Report on the Algorithmic Language Scheme")
-      (note "official standard; PDF from John Cowan")
-      (original-url "https://github.com/johnwcowan/r7rs-spec/raw/errata/rnrs/{name}")
+      (note "official standard; PDF from Aubrey Jaffer")
+      (original-url "https://people.csail.mit.edu/jaffer/{name}")
       (rnrs 4))
 
 (file (name "r5rs.pdf")
