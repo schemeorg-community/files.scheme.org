@@ -43,6 +43,13 @@
       (scheme-id "gambit")
       (scheme-version "4.9.3"))
 
+(file (name "{scheme-id}-{scheme-version}.tar.gz")
+      (title "libscheme (Scheme implementation)")
+      (note "source code")
+      (original-url "ftp://ftp.cs.indiana.edu/pub/scheme-repository/imp/{name}")
+      (scheme-id "libscheme")
+      (scheme-version "0.5"))
+
 (file (name "r5rs.pdf")
       (title "Revised^5 Report on the Algorithmic Language Scheme")
       (note "official standard; PDF from Brad Lucier")
