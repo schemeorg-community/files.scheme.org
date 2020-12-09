@@ -295,6 +295,12 @@
       (scheme-id "loko")
       (scheme-version "0.7.0"))
 
+(file (name "r4rs.pdf")
+      (title "Revised^4 Report on the Algorithmic Language Scheme")
+      (note "official standard; PDF from John Cowan")
+      (original-url "https://github.com/johnwcowan/r7rs-spec/raw/errata/rnrs/{name}")
+      (rnrs 4))
+
 (file (name "r5rs.pdf")
       (title "Revised^5 Report on the Algorithmic Language Scheme")
       (note "official standard; PDF from Brad Lucier")
