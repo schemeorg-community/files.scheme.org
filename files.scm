@@ -180,6 +180,13 @@
       (scheme-id "elk")
       (scheme-version "3.0"))
 
+(file (name "{scheme-id}-{scheme-version}.tar.gz")
+      (title "Elk")
+      (note "Scheme implementation; source code")
+      (original-url "http://sam.zoy.org/elk/{name}")
+      (scheme-id "elk")
+      (scheme-version "3.99.8"))
+
 (file (name "errata-corrected-r6rs-app.pdf")
       (title "Revised^6 Report on the Algorithmic Language Scheme: Non-Normative Appendices")
       (note "unofficial errata-corrected version from Göran Weinholt")
