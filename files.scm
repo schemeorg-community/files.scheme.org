@@ -152,6 +152,27 @@
       (scheme-id "chicken")
       (scheme-version "5.2.0"))
 
+(file (name "csv{scheme-version}.tar.gz")
+      (title "Chez Scheme")
+      (note "Scheme implementation; source code")
+      (original-url "https://github.com/cisco/ChezScheme/releases/download/v{scheme-version}/{name}")
+      (scheme-id "chezscheme")
+      (scheme-version "9.5.2"))
+
+(file (name "csv{scheme-version}.tar.gz")
+      (title "Chez Scheme")
+      (note "Scheme implementation; source code")
+      (original-url "https://github.com/cisco/ChezScheme/releases/download/v{scheme-version}/{name}")
+      (scheme-id "chezscheme")
+      (scheme-version "9.5.4"))
+
+(file (name "csv{scheme-version}.tar.gz")
+      (title "Chez Scheme")
+      (note "Scheme implementation; source code")
+      (original-url "https://github.com/cisco/ChezScheme/releases/download/v{scheme-version}/{name}")
+      (scheme-id "chezscheme")
+      (scheme-version "9.5"))
+
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
       (title "Elk")
       (note "Scheme implementation; source code")
