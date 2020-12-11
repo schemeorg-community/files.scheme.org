@@ -1,3 +1,10 @@
+(file (name "{scheme-id}-scheme-{scheme-version}.tgz")
+      (title "Chibi-Scheme")
+      (note "Scheme implementation; source code")
+      (original-url "http://synthcode.com/scheme/{scheme-id}/{name}")
+      (scheme-id "chibi")
+      (scheme-version "0.9.1"))
+
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
       (title "CHICKEN")
       (note "Scheme implementation; source code")
