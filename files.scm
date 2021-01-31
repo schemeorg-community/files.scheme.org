@@ -164,6 +164,13 @@
       (note "Scheme implementation; source code")
       (original-url "https://github.com/cisco/ChezScheme/releases/download/v{scheme-version}/{name}")
       (scheme-id "chezscheme")
+      (scheme-version "9.5"))
+
+(file (name "csv{scheme-version}.tar.gz")
+      (title "Chez Scheme")
+      (note "Scheme implementation; source code")
+      (original-url "https://github.com/cisco/ChezScheme/releases/download/v{scheme-version}/{name}")
+      (scheme-id "chezscheme")
       (scheme-version "9.5.2"))
 
 (file (name "csv{scheme-version}.tar.gz")
@@ -172,13 +179,6 @@
       (original-url "https://github.com/cisco/ChezScheme/releases/download/v{scheme-version}/{name}")
       (scheme-id "chezscheme")
       (scheme-version "9.5.4"))
-
-(file (name "csv{scheme-version}.tar.gz")
-      (title "Chez Scheme")
-      (note "Scheme implementation; source code")
-      (original-url "https://github.com/cisco/ChezScheme/releases/download/v{scheme-version}/{name}")
-      (scheme-id "chezscheme")
-      (scheme-version "9.5"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
       (title "Elk")
@@ -193,6 +193,13 @@
       (original-url "http://sam.zoy.org/elk/{name}")
       (scheme-id "elk")
       (scheme-version "3.99.8"))
+
+(file (name "errata-corrected-r6rs.pdf")
+      (title "Revised^6 Report on the Algorithmic Language Scheme")
+      (note "unofficial errata-corrected version from Göran Weinholt")
+      (original-url "https://weinholt.se/scheme/r6rs/r6rs.pdf")
+      (timestamp "2020-08-30T16:07:21Z")
+      (rnrs 6))
 
 (file (name "errata-corrected-r6rs-app.pdf")
       (title "Revised^6 Report on the Algorithmic Language Scheme: Non-Normative Appendices")
@@ -210,13 +217,6 @@
       (title "Revised^6 Report on the Algorithmic Language Scheme: Rationale")
       (note "unofficial errata-corrected version from Göran Weinholt")
       (original-url "https://weinholt.se/scheme/r6rs/r6rs-rationale.pdf")
-      (rnrs 6))
-
-(file (name "errata-corrected-r6rs.pdf")
-      (title "Revised^6 Report on the Algorithmic Language Scheme")
-      (note "unofficial errata-corrected version from Göran Weinholt")
-      (original-url "https://weinholt.se/scheme/r6rs/r6rs.pdf")
-      (timestamp "2020-08-30T16:07:21Z")
       (rnrs 6))
 
 (file (name "errata-corrected-r7rs.pdf")
@@ -557,6 +557,12 @@
       (original-url "https://schemers.org/Documents/Standards/R5RS/{name}")
       (rnrs 5))
 
+(file (name "r6rs.pdf")
+      (title "Revised^6 Report on the Algorithmic Language Scheme")
+      (note "official standard")
+      (original-url "http://www.r6rs.org/final/{name}")
+      (rnrs 6))
+
 (file (name "r6rs-app.pdf")
       (title "Revised^6 Report on the Algorithmic Language Scheme: Non-Normative Appendices")
       (note "official standard")
@@ -571,12 +577,6 @@
 
 (file (name "r6rs-rationale.pdf")
       (title "Revised^6 Report on the Algorithmic Language Scheme: Rationale")
-      (note "official standard")
-      (original-url "http://www.r6rs.org/final/{name}")
-      (rnrs 6))
-
-(file (name "r6rs.pdf")
-      (title "Revised^6 Report on the Algorithmic Language Scheme")
       (note "official standard")
       (original-url "http://www.r6rs.org/final/{name}")
       (rnrs 6))
@@ -716,6 +716,13 @@
       (note "Scheme implementation; source code")
       (original-url "https://www.s48.org/{scheme-version}/{name}")
       (scheme-id "scheme48")
+      (scheme-version "1.9"))
+
+(file (name "{scheme-id}-{scheme-version}.tgz")
+      (title "Scheme 48")
+      (note "Scheme implementation; source code")
+      (original-url "https://www.s48.org/{scheme-version}/{name}")
+      (scheme-id "scheme48")
       (scheme-version "1.9.1"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -724,13 +731,6 @@
       (original-url "https://www.s48.org/{scheme-version}/{name}")
       (scheme-id "scheme48")
       (scheme-version "1.9.2"))
-
-(file (name "{scheme-id}-{scheme-version}.tgz")
-      (title "Scheme 48")
-      (note "Scheme implementation; source code")
-      (original-url "https://www.s48.org/{scheme-version}/{name}")
-      (scheme-id "scheme48")
-      (scheme-version "1.9"))
 
 (file (name "{scheme-id}-{scheme-version}.zip")
       (title "SCM")
