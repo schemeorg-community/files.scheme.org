@@ -592,6 +592,13 @@
       (note "source code from the paper Rabbit: a compiler for Scheme")
       (original-url "http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/lang/scheme/impl/rabbit/{name}"))
 
+(file (name "rs-{scheme-version}.tar.gz")
+      (title "RScheme")
+      (note "Scheme implementation; source code")
+      (manual-original-url "https://web.archive.org/web/20160804005509/http://www.rscheme.org/rs/b/0.7.3.4/7/{name}")
+      (scheme-id "rscheme")
+      (scheme-version "0.7.3.4-b7"))
+
 (file (name "s9core-{scheme-version}.tgz")
       (title "Scheme 9 from Empty Space")
       (note "Scheme implementation; source code")
