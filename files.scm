@@ -701,7 +701,7 @@
 
 (file (name "r2rs-nbs.pdf")
       (title "The Revised Revised Report on Scheme or An UnCommon Lisp (AI Memo No. 848)")
-      (note "also known as R2RS; scanned OCR PDF from National Bureau of Standards")
+      (note "also known as R^2RS; scanned OCR PDF from National Bureau of Standards")
       (original-url "https://apps.dtic.mil/sti/pdfs/ADA159423.pdf")
       (rnrs 2))
 
