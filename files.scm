@@ -568,7 +568,7 @@
 
 (file (name "{scheme-id}-{scheme-version}-setup-win32.exe")
       (title "Mosh")
-      (note "Scheme implementation; Win32 installer; original filename mosh-0.0.1-setup-win32.exe")
+      (note "Scheme implementation; Windows installer; original filename mosh-0.0.1-setup-win32.exe")
       (original-url "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mosh-scheme/{name}")
       (scheme-id "mosh")
       (scheme-version "0.1.0")
@@ -592,7 +592,7 @@
 
 (file (name "{scheme-id}-{scheme-version}-setup-win32.exe")
       (title "Mosh")
-      (note "Scheme implementation; Win32 installer")
+      (note "Scheme implementation; Windows installer")
       (original-url "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mosh-scheme/{name}")
       (scheme-id "mosh")
       (scheme-version "0.1.2")
@@ -608,7 +608,7 @@
 
 (file (name "{scheme-id}-{scheme-version}-setup-win32.exe")
       (title "Mosh")
-      (note "Scheme implementation; Win32 installer")
+      (note "Scheme implementation; Windows installer")
       (original-url "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mosh-scheme/{name}")
       (scheme-id "mosh")
       (scheme-version "0.2.0")
@@ -616,7 +616,7 @@
 
 (file (name "{scheme-id}-{scheme-version}-setup-win32.exe")
       (title "Mosh")
-      (note "Scheme implementation; Win32 installer")
+      (note "Scheme implementation; Windows installer")
       (original-url "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mosh-scheme/{name}")
       (scheme-id "mosh")
       (scheme-version "0.2.1")
@@ -648,7 +648,7 @@
 
 (file (name "{scheme-id}-{scheme-version}-setup-win32.exe")
       (title "Mosh")
-      (note "Scheme implementation; Win32 installer")
+      (note "Scheme implementation; Windows installer")
       (original-url "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mosh-scheme/{name}")
       (scheme-id "mosh")
       (scheme-version "0.2.4")
@@ -664,7 +664,7 @@
 
 (file (name "{scheme-id}-{scheme-version}-setup-win32.exe")
       (title "Mosh")
-      (note "Scheme implementation; Win32 installer (psyntax-mosh)")
+      (note "Scheme implementation; Windows installer (psyntax-mosh)")
       (original-url "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mosh-scheme/{name}")
       (scheme-id "mosh")
       (scheme-version "0.2.5")
