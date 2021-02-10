@@ -1272,6 +1272,11 @@
       (scheme-id "tinyscheme")
       (scheme-version "1.39"))
 
+(file (name "vx-scheme-20080617-repo.git.tar.gz")
+      (title "Vx-Scheme")
+      (note "Scheme implementation; svn to git conversion from Lassi Kortela")
+      (original-url "https://misc.lassi.io/2021/vx-scheme-20080617-repo.git.tar.gz"))
+
 (file (name "vx-scheme-20080617-repo.svndump.gz")
       (title "Vx-Scheme")
       (note "Scheme implementation; final Subversion repository from Google Code")
