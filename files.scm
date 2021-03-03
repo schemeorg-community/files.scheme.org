@@ -664,7 +664,7 @@
 
 (file (name "{scheme-id}-{scheme-version}-setup-win32.exe")
       (title "Mosh")
-      (note "Scheme implementation; Windows installer (psyntax-mosh)")
+      (note "Scheme implementation; Windows installer; psyntax-mosh")
       (original-url "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mosh-scheme/{name}")
       (scheme-id "mosh")
       (scheme-version "0.2.5")
@@ -680,7 +680,7 @@
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
       (title "Mosh")
-      (note "Scheme implementation; source code (for homebrew)")
+      (note "Scheme implementation; source code; for Homebrew")
       (original-url "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mosh-scheme/{name}")
       (scheme-id "mosh")
       (scheme-version "0.2.6p")
