@@ -1,3 +1,27 @@
+(file (name "aescm-{version}.tar.gz")
+      (title "aescm")
+      (note "Embedded Scheme processor; source code")
+      (manual-original-url "https://sourceforge.net/projects/escm/files/aescm/{version}/{name}/download")
+      (version "0.26"))
+
+(file (name "aescm-{version}.tar.gz")
+      (title "aescm")
+      (note "Embedded Scheme processor; source code")
+      (manual-original-url "https://sourceforge.net/projects/escm/files/aescm/{version}/{name}/download")
+      (version "0.30"))
+
+(file (name "aescm-{version}.tar.gz")
+      (title "aescm")
+      (note "Embedded Scheme processor; source code")
+      (manual-original-url "https://sourceforge.net/projects/escm/files/aescm/{version}/{name}/download")
+      (version "0.31"))
+
+(file (name "aescm-{version}.tar.gz")
+      (title "aescm")
+      (note "Embedded Scheme processor; source code")
+      (manual-original-url "https://sourceforge.net/projects/escm/files/aescm/{version}/{name}/download")
+      (version "0.32"))
+
 (file (name "{scheme-id}-scheme-{scheme-version}.tgz")
       (title "Chibi-Scheme")
       (note "Scheme implementation; source code")
@@ -224,6 +248,12 @@
       (note "unofficial errata-corrected version from John Cowan")
       (original-url "https://raw.githubusercontent.com/johnwcowan/r7rs-spec/errata/rnrs/r7rs.pdf")
       (rnrs 7))
+
+(file (name "escm-{version}.tar.gz")
+      (title "escm")
+      (note "Embedded Scheme processor; source code")
+      (original-url "http://practical-scheme.net/vault/escm-{version}.tar.gz")
+      (version "1.1"))
 
 (file (name "{scheme-id}-v{version-major}_{version-minor}_{version-patch}.tgz")
       (title "Gambit")
