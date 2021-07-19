@@ -3,4 +3,4 @@ set -eu
 cd "$(dirname "$0")"
 ./index.sh
 set -x
-rsync -vr files/ alpha.servers.scheme.org:/production/files/www/
+rsync -vr --size-only files/ alpha.servers.scheme.org:/production/files/www/
