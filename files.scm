@@ -729,6 +729,48 @@
       (note "Scheme implementation; source code; no version number in archive")
       (original-url "ftp://ftp.cs.indiana.edu/pub/scheme-repository/imp/oscheme.tar.gz"))
 
+(file (name "owl-v{scheme-version}.tar.gz")
+      (title "Owl Lisp")
+      (note "Scheme implementation; source code")
+      (original-url "https://gitlab.com/owl-lisp/owl/-/archive/v{scheme-version}/{name}")
+      (scheme-version "0.1.16"))
+
+(file (name "owl-v{scheme-version}.tar.gz")
+      (title "Owl Lisp")
+      (note "Scheme implementation; source code")
+      (original-url "https://gitlab.com/owl-lisp/owl/-/archive/v{scheme-version}/{name}")
+      (scheme-version "0.1.17"))
+
+(file (name "owl-v{scheme-version}.tar.gz")
+      (title "Owl Lisp")
+      (note "Scheme implementation; source code")
+      (original-url "https://gitlab.com/owl-lisp/owl/-/archive/v{scheme-version}/{name}")
+      (scheme-version "0.1.18"))
+
+(file (name "owl-v{scheme-version}.tar.gz")
+      (title "Owl Lisp")
+      (note "Scheme implementation; source code")
+      (original-url "https://gitlab.com/owl-lisp/owl/-/archive/v{scheme-version}/{name}")
+      (scheme-version "0.1.19"))
+
+(file (name "owl-v{scheme-version}.tar.gz")
+      (title "Owl Lisp")
+      (note "Scheme implementation; source code")
+      (original-url "https://gitlab.com/owl-lisp/owl/-/archive/v{scheme-version}/{name}")
+      (scheme-version "0.1.20"))
+
+(file (name "owl-v{scheme-version}.tar.gz")
+      (title "Owl Lisp")
+      (note "Scheme implementation; source code")
+      (original-url "https://gitlab.com/owl-lisp/owl/-/archive/v{scheme-version}/{name}")
+      (scheme-version "0.1.21"))
+
+(file (name "owl-v{scheme-version}.tar.gz")
+      (title "Owl Lisp")
+      (note "Scheme implementation; source code")
+      (original-url "https://gitlab.com/owl-lisp/owl/-/archive/v{scheme-version}/{name}")
+      (scheme-version "0.2"))
+
 (file (name "r2rs-nbs.pdf")
       (title "The Revised Revised Report on Scheme or An UnCommon Lisp (AI Memo No. 848)")
       (note "also known as R^2RS; scanned OCR PDF from National Bureau of Standards")
