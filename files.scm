@@ -565,6 +565,13 @@
       (scheme-version "0.7.0"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
+      (title "Loko")
+      (note "Scheme implementation; source code")
+      (original-url "https://scheme.fail/releases/{name}")
+      (scheme-id "loko")
+      (scheme-version "0.8.0"))
+
+(file (name "{scheme-id}-{scheme-version}.tar.gz")
       (title "Mosh")
       (note "Scheme implementation; source code")
       (original-url "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mosh-scheme/{name}")
