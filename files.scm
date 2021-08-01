@@ -474,6 +474,20 @@
       (scheme-version "1.0.240")
       (commit-hash "687cde5"))
 
+(file (name "{scheme-id}-{scheme-version}-src.tar.gz")
+      (title "Larceny")
+      (note "Scheme implementation; source code")
+      (original-url "http://larcenists.org/LarcenyReleases/{name}")
+      (scheme-id "larceny")
+      (scheme-version "0.97"))
+
+(file (name "{scheme-id}-{scheme-version}-src.tar.gz")
+      (title "Larceny")
+      (note "Scheme implementation; source code")
+      (original-url "http://larcenists.org/LarcenyReleases/{name}")
+      (scheme-id "larceny")
+      (scheme-version "1.3"))
+
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
       (title "libscheme")
       (note "Scheme implementation; source code")
