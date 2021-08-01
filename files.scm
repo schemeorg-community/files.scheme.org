@@ -466,6 +466,14 @@
       (scheme-id "ikarus")
       (scheme-version "0.0.3"))
 
+(file (name "{title}-{scheme-version}-{commit-hash}.zip")
+      (title "IronScheme")
+      (note "Scheme implementation; .NET/CLR binaries")
+      (original-url "https://github.com/{title}/{title}/releases/download/{scheme-version}/{name}")
+      (scheme-id "ironscheme")
+      (scheme-version "1.0.240")
+      (commit-hash "687cde5"))
+
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
       (title "libscheme")
       (note "Scheme implementation; source code")
