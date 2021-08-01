@@ -446,6 +446,27 @@
       (version-patch 9))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
+      (title "Ikarus")
+      (note "Scheme implementation; source code")
+      (original-url "https://launchpad.net/ikarus/0.0/{scheme-version}/+download/{name}")
+      (scheme-id "ikarus")
+      (scheme-version "0.0.1"))
+
+(file (name "{scheme-id}-{scheme-version}.tar.gz")
+      (title "Ikarus")
+      (note "Scheme implementation; source code")
+      (original-url "https://launchpad.net/ikarus/0.0/{scheme-version}/+download/{name}")
+      (scheme-id "ikarus")
+      (scheme-version "0.0.2"))
+
+(file (name "{scheme-id}-{scheme-version}.tar.gz")
+      (title "Ikarus")
+      (note "Scheme implementation; source code")
+      (original-url "https://launchpad.net/ikarus/0.0/{scheme-version}/+download/{name}")
+      (scheme-id "ikarus")
+      (scheme-version "0.0.3"))
+
+(file (name "{scheme-id}-{scheme-version}.tar.gz")
       (title "libscheme")
       (note "Scheme implementation; source code")
       (original-url "ftp://ftp.cs.indiana.edu/pub/scheme-repository/imp/{name}")
