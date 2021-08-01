@@ -799,6 +799,18 @@
       (original-url "https://gitlab.com/owl-lisp/owl/-/archive/v{scheme-version}/{name}")
       (scheme-version "0.2"))
 
+(file (name "psyntax-r6rs-{version}.tgz")
+      (title "psyntax")
+      (note "Portable R6RS library expander; source code")
+      (original-url "https://www.scheme.com/syntax-case/r6rs-libraries/{name}")
+      (version "rev1"))
+
+(file (name "psyntax-r6rs-{version}.tgz")
+      (title "psyntax")
+      (note "Portable R6RS library expander; source code")
+      (original-url "https://www.scheme.com/syntax-case/r6rs-libraries/{name}")
+      (version "rev4"))
+
 (file (name "r2rs-nbs.pdf")
       (title "The Revised Revised Report on Scheme or An UnCommon Lisp (AI Memo No. 848)")
       (note "also known as R^2RS; scanned OCR PDF from National Bureau of Standards")
