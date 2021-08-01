@@ -801,13 +801,13 @@
 
 (file (name "psyntax-r6rs-{version}.tgz")
       (title "psyntax")
-      (note "Portable R6RS library expander; source code")
+      (note "portable R6RS library expander; source code")
       (original-url "https://www.scheme.com/syntax-case/r6rs-libraries/{name}")
       (version "rev1"))
 
 (file (name "psyntax-r6rs-{version}.tgz")
       (title "psyntax")
-      (note "Portable R6RS library expander; source code")
+      (note "portable R6RS library expander; source code")
       (original-url "https://www.scheme.com/syntax-case/r6rs-libraries/{name}")
       (version "rev4"))
 
