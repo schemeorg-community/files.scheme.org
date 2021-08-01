@@ -852,6 +852,13 @@
       (scheme-id "s9fes")
       (scheme-version "20181205"))
 
+(file (name "{scheme-id}-{scheme-version}.tar.gz")
+      (title "Sagittarius")
+      (note "Scheme implementation; source code")
+      (original-url "https://bitbucket.org/ktakashi/sagittarius-scheme/downloads/{name}")
+      (scheme-id "sagittarius")
+      (scheme-version "0.9.7"))
+
 (file (name "{scheme-id}-{scheme-version}.tgz")
       (title "Scheme 48")
       (note "Scheme implementation; source code")
