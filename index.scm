@@ -82,7 +82,7 @@
 
 (define (main)
   (let ((files (with-input-from-file "files.scm" read-files)))
-    (with-output-to-file "files/index.html"
+    (with-output-to-file "www/index.html"
       (lambda () (display-page files)))))
 
 (main)
