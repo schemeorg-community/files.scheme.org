@@ -46,39 +46,58 @@
          (string-for-each display-char x))
         (else (error "Bad:" x))))
 
+(define (menu-sxml items)
+  `(header
+    (ul (@ (class "menu"))
+        ,@(map (lambda (i) `(li (a (@ (href ,(cadr i))) ,(car i))))
+               items))))
+
 (define (display-page files)
   (display-sxml
-   `(html
-     (@ (lang "en"))
-     (head
-      (title "Scheme Files")
-      (meta (@ (charset "UTF-8")))
-      (style ""
-        "body { font-family: sans-serif; }"
-        "td { vertical-align: top; }"
-        ".even { background-color: #dde; }"
-        ".odd { }"
-        ".note { color: teal; }"))
-     (body
-      (h1 "Scheme Files")
-      (p " Source is in a "
-         (a (@ (href "https://github.com/schemeorg/files.scheme.org"))
-            "git repository") ".")
-      (table
-       ,@(map/odd
-          (lambda (file odd?)
-            (let ((name (get-string 'name file)))
-              `(tr (@ (class ,(if odd? "odd" "even")))
-                   (td (kbd (a (@ (href ,name)) ,name)))
-                   (td ,@(superscripts (get-string 'title file))
-                       ,@(let ((note (get-string-optional 'note file)))
-                           (if (not note) '()
-                               `((br)
-                                 (span (@ (class "note"))
-                                       "("
-                                       ,@(superscripts note)
-                                       ")"))))))))
-          files))))))
+   (let ((title "Scheme Files")
+         (description
+          (string-append
+           "Download archive of Scheme programming implementations,"
+           " libraries, documents and other files.")))
+     `(html
+       (@ (lang "en"))
+       (head
+        (meta (@ (charset "UTF-8")))
+        (title ,title)
+        (link (@ (rel "stylesheet") (href "/style.css")))
+        (link (@ (rel "stylesheet") (href "/files.css")))
+        (meta (@ (name "viewport")
+                 (content "width=device-width, initial-scale=1")))
+        (meta (@ (name "description")
+                 (content ,description))))
+       (body
+        ,(menu-sxml
+          '(("Home" "https://scheme.org/")
+            ("Docs" "https://doc.scheme.org/")
+            ("Community" "https://community.scheme.org/")
+            ("Standards" "https://standards.scheme.org/")
+            ("Implementations" "https://implementations.scheme.org/")))
+        (h1 (@ (id "logo"))
+            ,title)
+        (p " Source is in a "
+           (a (@ (href "https://github.com/schemeorg/files.scheme.org"))
+              "git repository") ".")
+        (table
+         (@ (class "files"))
+         ,@(map/odd
+            (lambda (file odd?)
+              (let ((name (get-string 'name file)))
+                `(tr (@ (class ,(if odd? "odd" "even")))
+                     (td (kbd (a (@ (href ,name)) ,name)))
+                     (td ,@(superscripts (get-string 'title file))
+                         ,@(let ((note (get-string-optional 'note file)))
+                             (if (not note) '()
+                                 `((br)
+                                   (span (@ (class "note"))
+                                         "("
+                                         ,@(superscripts note)
+                                         ")"))))))))
+            files)))))))
 
 (define (main)
   (let ((files (with-input-from-file "files.scm" read-files)))

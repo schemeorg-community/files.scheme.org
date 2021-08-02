@@ -1,0 +1,11 @@
+table.files td {
+  vertical-align: top;
+}
+
+tr.even td {
+  background-color: #ddc;
+}
+
+.note {
+  color: teal;
+}
