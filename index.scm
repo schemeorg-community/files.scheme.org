@@ -52,6 +52,36 @@
         ,@(map (lambda (i) `(li (a (@ (href ,(cadr i))) ,(car i))))
                items))))
 
+(define (about-section)
+  `(section
+    (h2 "About files.scheme.org")
+    (div (@ (id "schemeorg-contributing")
+            (class "round-box green-box"))
+         (p (kbd "files.scheme.org")
+            " is a community subdomain of "
+            (kbd "scheme.org") ".")
+         (ul
+          (li "Source code: "
+              (a (@ (href
+                     "https://github.com/schemeorg/files.scheme.org"))
+                 (kbd (@ (class "github-repo"))
+                      "schemeorg/files.scheme.org"))
+              " repository on GitHub.")
+          (li "Discussion: "
+              (code (@ (class "mailing-list"))
+                    "schemeorg")
+              " mailing list ("
+              (a (@ (href
+                     "https://srfi-email.schemers.org/schemeorg/"))
+                 "archives")
+              ", "
+              (a (@ (href
+                     ,(string-append
+                       "https://srfi.schemers.org/"
+                       "srfi-list-subscribe.html#schemeorg")))
+                 "subscribe")
+              ").")))))
+
 (define (display-page files)
   (display-sxml
    (let ((title "Scheme Files")
@@ -79,9 +109,6 @@
             ("Implementations" "https://implementations.scheme.org/")))
         (h1 (@ (id "logo"))
             ,title)
-        (p " Source is in a "
-           (a (@ (href "https://github.com/schemeorg/files.scheme.org"))
-              "git repository") ".")
         (table
          (@ (class "files"))
          ,@(map/odd
@@ -97,7 +124,8 @@
                                          "("
                                          ,@(superscripts note)
                                          ")"))))))))
-            files)))))))
+            files))
+        ,(about-section))))))
 
 (define (main)
   (let ((files (with-input-from-file "files.scm" read-files)))
