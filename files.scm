@@ -1045,6 +1045,13 @@
       (original-url "http://groups.csail.mit.edu/mac/ftpdir/scm/{name}")
       (version "3b6"))
 
+(file (name "{scheme-id}-{scheme-version}.tgz")
+      (title "Stalin")
+      (note "Scheme implementation; source code")
+      (original-url "ftp://ftp.ecn.purdue.edu/qobi/{name}")
+      (scheme-id "stalin")
+      (scheme-version "0.11"))
+
 (file (name "STk-{scheme-version}.tar.gz")
       (title "STk")
       (note "Scheme implementation; source code")
