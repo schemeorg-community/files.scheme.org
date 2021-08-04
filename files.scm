@@ -1362,3 +1362,10 @@
       (title "Vx-Scheme")
       (note "Scheme implementation; final Subversion repository from Google Code")
       (original-url "https://storage.googleapis.com/google-code-archive-source/v2/code.google.com/vx-scheme/repo.svndump.gz"))
+
+(file (name "{scheme-id}-{scheme-version}.tar.gz")
+      (title "Ypsilon")
+      (note "Scheme implementation; source code")
+      (original-url "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/{scheme-id}/{name}")
+      (scheme-id "ypsilon")
+      (scheme-version "0.9.6.update3"))
