@@ -802,6 +802,12 @@
       (original-url "https://www.scheme.com/syntax-case/r6rs-libraries/{name}")
       (version "rev4"))
 
+(file (name "{title}-{version}.tar.Z")
+      (title "QobiScheme")
+      (note "Scheme libraries; source code")
+      (original-url "ftp://ftp.ecn.purdue.edu/qobi/{name}")
+      (version "1.47"))
+
 (file (name "r2rs-nbs.pdf")
       (title "The Revised Revised Report on Scheme or An UnCommon Lisp (AI Memo No. 848)")
       (note "also known as R^2RS; scanned OCR PDF from National Bureau of Standards")
