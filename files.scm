@@ -840,6 +840,27 @@
       (scheme-id "s9fes")
       (scheme-version "20181205"))
 
+(file (name "{scheme-id}-{year}.tgz")
+      (title "Scheme 9 from Empty Space")
+      (note "Scheme implementation; source code")
+      (original-url "https://t3x.org/files/{name}")
+      (scheme-id "s9fes")
+      (year "2007"))
+
+(file (name "{scheme-id}-{year}.tgz")
+      (title "Scheme 9 from Empty Space")
+      (note "Scheme implementation; source code")
+      (original-url "https://t3x.org/files/{name}")
+      (scheme-id "s9fes")
+      (year "2014"))
+
+(file (name "{scheme-id}-{year}.tgz")
+      (title "Scheme 9 from Empty Space")
+      (note "Scheme implementation; source code")
+      (original-url "https://t3x.org/files/{name}")
+      (scheme-id "s9fes")
+      (year "2018"))
+
 (file (name "{scheme-id}-{scheme-version}.tgz")
       (title "Scheme 9 from Empty Space")
       (note "Scheme implementation; source code")
