@@ -591,6 +591,20 @@
       (scheme-version "0.9.0"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
+      (title "Mini-Scheme (fork by Akira Kida)")
+      (note "Scheme implementation; source code")
+      (original-url "ftp://ftp.cs.indiana.edu/pub/scheme-repository/imp/minischeme.tar.gz")
+      (scheme-id "minischeme")
+      (scheme-version "0.85k4"))
+
+(file (name "{scheme-id}-{scheme-version}.tar.gz")
+      (title "Mini-Scheme (fork by Nils M Holm)")
+      (note "Scheme implementation; source code")
+      (original-url "https://t3x.org/files/miniscm3.tar.gz")
+      (scheme-id "minischeme")
+      (scheme-version "nmh-20130122"))
+
+(file (name "{scheme-id}-{scheme-version}.tar.gz")
       (title "Mosh")
       (note "Scheme implementation; source code")
       (original-url "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mosh-scheme/{name}")
