@@ -110,7 +110,7 @@
         (h1 (@ (id "logo"))
             ,title)
         (table
-         (@ (class "files"))
+         (@ (class "files no-border"))
          ,@(map/odd
             (lambda (file odd?)
               (let ((name (get-string 'name file)))
