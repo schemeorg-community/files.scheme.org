@@ -443,6 +443,13 @@
       (scheme-version "1.0.240")
       (commit-hash "687cde5"))
 
+(file (name "{scheme-id}-{scheme-version}.tar.gz")
+      (title "Kali")
+      (note "Scheme implementation; source code")
+      (original-url "http://community.schemewiki.org/kali-scheme/releases/{name}")
+      (scheme-id "kali")
+      (scheme-version "0.52.2"))
+
 (file (name "{scheme-id}-{scheme-version}-src.tar.gz")
       (title "Larceny")
       (note "Scheme implementation; source code")
