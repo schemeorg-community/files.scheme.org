@@ -22,6 +22,13 @@
       (manual-original-url "https://sourceforge.net/projects/escm/files/aescm/{version}/{name}/download")
       (version "0.32"))
 
+(file (name "alexpander-{version}.scm")
+      (title "alexpander")
+      (note "R5RS macro expander with extensions; source code")
+;     (original-url "http://petrofsky.org/src/alexpander.scm")
+      (original-url "https://web.archive.org/web/20171216165612if_/http://petrofsky.org:80/src/alexpander.scm")
+      (version "1.65"))
+
 (file (name "{scheme-id}-scheme-{scheme-version}.tgz")
       (title "Chibi-Scheme")
       (note "Scheme implementation; source code")
