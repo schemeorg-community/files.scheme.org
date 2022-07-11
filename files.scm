@@ -546,7 +546,7 @@
       (archive-date "20210420032718")
       (package "guile-scmutils")
       (version "1.0")
-      (size 528884)
+      (size 538738)
       (sha1 "8b8e794dd02b502d6c83bb4aab9448b123a83dd5"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
