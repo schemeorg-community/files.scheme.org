@@ -3,6 +3,7 @@
       (note "Embedded Scheme processor; source code")
       (manual-original-url "https://sourceforge.net/projects/escm/files/aescm/{version}/{name}/download")
       (version "0.26")
+      (size 110930)
       (sha1 "ba8f85ec77e6721583c9a8be0d5270abbdad15b2"))
 
 (file (name "aescm-{version}.tar.gz")
@@ -10,6 +11,7 @@
       (note "Embedded Scheme processor; source code")
       (manual-original-url "https://sourceforge.net/projects/escm/files/aescm/{version}/{name}/download")
       (version "0.30")
+      (size 106241)
       (sha1 "7d907984bf7ca16cda919394b57c4da9ac574eb8"))
 
 (file (name "aescm-{version}.tar.gz")
@@ -17,6 +19,7 @@
       (note "Embedded Scheme processor; source code")
       (manual-original-url "https://sourceforge.net/projects/escm/files/aescm/{version}/{name}/download")
       (version "0.31")
+      (size 104422)
       (sha1 "3fdb7873ab148cc645398daf23c7f4ab5ea09674"))
 
 (file (name "aescm-{version}.tar.gz")
@@ -24,6 +27,7 @@
       (note "Embedded Scheme processor; source code")
       (manual-original-url "https://sourceforge.net/projects/escm/files/aescm/{version}/{name}/download")
       (version "0.32")
+      (size 107458)
       (sha1 "e86eb42211b60d51596d598985cc44e9628f24d8"))
 
 (file (name "alexpander-{version}.scm")
@@ -32,6 +36,7 @@
 ;     (original-url "http://petrofsky.org/src/alexpander.scm")
       (original-url "https://web.archive.org/web/20171216165612if_/http://petrofsky.org:80/src/alexpander.scm")
       (version "1.65")
+      (size 87489)
       (sha1 "bfa3501e97eb0d9eb221b14892a597ebe717b290"))
 
 (file (name "{scheme-id}-scheme-{scheme-version}.tgz")
@@ -40,6 +45,7 @@
       (original-url "http://synthcode.com/scheme/{scheme-id}/{name}")
       (scheme-id "chibi")
       (scheme-version "0.9.1")
+      (size 886984)
       (sha1 "2cd12ec96d991bf4e4357e06e363e14be730a14a"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -48,6 +54,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "3.0.0")
+      (size 4056492)
       (sha1 "12554ba5146a53cb76fb5f41627664fbe885f8c6"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -56,6 +63,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "3.1.0")
+      (size 4005073)
       (sha1 "a5529645df74751a611895e9d32bef78d23a276c"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -64,6 +72,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "3.2.0")
+      (size 3165645)
       (sha1 "6416d34cde15a3800986082960b302b238e197f4"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -72,6 +81,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "3.3.0")
+      (size 4228441)
       (sha1 "3af69007f664ccdef988863f1c6ac24405c5500c"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -80,6 +90,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "3.4.0")
+      (size 4242443)
       (sha1 "6a73186eb01e2aa952056cf2ccb8fa136f9fab4e"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -88,6 +99,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "4.0.0")
+      (size 3309221)
       (sha1 "9d56cc0f34d9f920b59d2576e651b31a530a38ef"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -96,6 +108,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "4.1.0")
+      (size 3392068)
       (sha1 "683b36f84e59b89c0bf877927571e9e0a677d182"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -104,6 +117,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "4.10.0")
+      (size 4020442)
       (sha1 "bbb532abc6f7df306b4868218036c5188738d772"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -112,6 +126,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "4.11.0")
+      (size 4201815)
       (sha1 "b8b1e8b741a5ea5b318c449c3bf8a42f8de8ba69"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -120,6 +135,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "4.12.0")
+      (size 4240266)
       (sha1 "f128b57d42ce6f1d4a56a372916e9e538ae1ceab"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -128,6 +144,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "4.13.0")
+      (size 4244358)
       (sha1 "ebbef7206f7f2faa3ac430a8c1e50f841d5db23e"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -136,6 +153,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "4.2.0")
+      (size 3388152)
       (sha1 "c09922884eb145ad993e0d84116678cc9c98afbe"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -144,6 +162,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "4.3.0")
+      (size 3481208)
       (sha1 "5a0e061f5c67d20160034126f63ad64a7b15ee57"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -152,6 +171,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "4.4.0")
+      (size 3663262)
       (sha1 "509b8480919e8b888caa4074de8042bcbd7ce6fb"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -160,6 +180,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "4.5.0")
+      (size 2914920)
       (sha1 "67c1d791b59dc77fe5f41f19dc70fa2d5b86e4c3"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -168,6 +189,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "4.6.0")
+      (size 3019126)
       (sha1 "a801383786908022223c32337fb1c5814e6c26a5"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -176,6 +198,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "4.7.0")
+      (size 3392031)
       (sha1 "504036951eccda7680547dae63ad44e8960d3f72"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -184,6 +207,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "4.8.0")
+      (size 3970818)
       (sha1 "5068929f02d8a4fcb8fde13e4ddefb0bcb7142a6"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -192,6 +216,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "4.9.0")
+      (size 4022686)
       (sha1 "bd2cad8d2e7cd448f8ccd2cceab36030f1917387"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -200,6 +225,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "5.0.0")
+      (size 4003976)
       (sha1 "59e71cdee95ecfa2f7d8713c2bf7fbff54c48d32"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -208,6 +234,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "5.1.0")
+      (size 4071169)
       (sha1 "ac5abdf82168d5d86f00a79f75f7a73dc0c717ab"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -216,6 +243,7 @@
       (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
       (scheme-id "chicken")
       (scheme-version "5.2.0")
+      (size 4052305)
       (sha1 "3456f2c60b378ef1f6fa6b8d1d31eb05a1d82dcb"))
 
 (file (name "csv{scheme-version}.tar.gz")
@@ -224,6 +252,7 @@
       (original-url "https://github.com/cisco/ChezScheme/releases/download/v{scheme-version}/{name}")
       (scheme-id "chezscheme")
       (scheme-version "9.5")
+      (size 30513285)
       (sha1 "fcbda13bb61643209fd5d825e393d2064dc6c5be"))
 
 (file (name "csv{scheme-version}.tar.gz")
@@ -232,6 +261,7 @@
       (original-url "https://github.com/cisco/ChezScheme/releases/download/v{scheme-version}/{name}")
       (scheme-id "chezscheme")
       (scheme-version "9.5.2")
+      (size 31414323)
       (sha1 "2d07be6aa99e66365864d96f538e12d3c5098957"))
 
 (file (name "csv{scheme-version}.tar.gz")
@@ -240,6 +270,7 @@
       (original-url "https://github.com/cisco/ChezScheme/releases/download/v{scheme-version}/{name}")
       (scheme-id "chezscheme")
       (scheme-version "9.5.4")
+      (size 32313134)
       (sha1 "867c82cc3879e37dcb0188ef1c08915afaac42a9"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -248,6 +279,7 @@
       (original-url "ftp://ftp.cs.indiana.edu/pub/scheme-repository/imp/{name}")
       (scheme-id "elk")
       (scheme-version "3.0")
+      (size 761393)
       (sha1 "137a2a5552c38e173645782bf7f8e17df5b9a7b0"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -256,6 +288,7 @@
       (original-url "http://sam.zoy.org/elk/{name}")
       (scheme-id "elk")
       (scheme-version "3.99.8")
+      (size 879908)
       (sha1 "019f75d121b834f1f29bd83df7e67de00c34e30c"))
 
 (file (name "escm-{version}.tar.gz")
@@ -263,6 +296,7 @@
       (note "Embedded Scheme processor; source code")
       (original-url "http://practical-scheme.net/vault/escm-{version}.tar.gz")
       (version "1.1")
+      (size 22344)
       (sha1 "a1ddcbd88d9c26270f38c200abf5c8745c783faa"))
 
 (file (name "{scheme-id}-v{version-major}_{version-minor}_{version-patch}.tgz")
@@ -274,6 +308,7 @@
       (version-major 4)
       (version-minor 8)
       (version-patch 0)
+      (size 13221494)
       (sha1 "40e46be086bfa07cd61baf497185819dd57f10c2"))
 
 (file (name "{scheme-id}-v{version-major}_{version-minor}_{version-patch}.tgz")
@@ -285,6 +320,7 @@
       (version-major 4)
       (version-minor 8)
       (version-patch 1)
+      (size 13222410)
       (sha1 "7cafb4c60e9ac3e59a01aa7844d07a8cdccd5e2c"))
 
 (file (name "{scheme-id}-v{version-major}_{version-minor}_{version-patch}.tgz")
@@ -296,6 +332,7 @@
       (version-major 4)
       (version-minor 8)
       (version-patch 2)
+      (size 13163072)
       (sha1 "82f9dda9c9e2d7f0ea01e84d92e8297b5a873fed"))
 
 (file (name "{scheme-id}-v{version-major}_{version-minor}_{version-patch}.tgz")
@@ -307,6 +344,7 @@
       (version-major 4)
       (version-minor 8)
       (version-patch 3)
+      (size 13168768)
       (sha1 "b625ad57cf5cadfb9ff6e0c134e235d0234444e1"))
 
 (file (name "{scheme-id}-v{version-major}_{version-minor}_{version-patch}.tgz")
@@ -318,6 +356,7 @@
       (version-major 4)
       (version-minor 8)
       (version-patch 4)
+      (size 13163827)
       (sha1 "bc61b8ec8f58860cc10a186e4e9e1301dcdaf97c"))
 
 (file (name "{scheme-id}-v{version-major}_{version-minor}_{version-patch}.tgz")
@@ -329,6 +368,7 @@
       (version-major 4)
       (version-minor 8)
       (version-patch 5)
+      (size 13209443)
       (sha1 "1b94188917f9c91838c877455fdb4dd71855dfe8"))
 
 (file (name "{scheme-id}-v{version-major}_{version-minor}_{version-patch}.tgz")
@@ -340,6 +380,7 @@
       (version-major 4)
       (version-minor 8)
       (version-patch 6)
+      (size 13259480)
       (sha1 "02222db5ccf745e823735b1ee493633ae456ca1f"))
 
 (file (name "{scheme-id}-v{version-major}_{version-minor}_{version-patch}.tgz")
@@ -351,6 +392,7 @@
       (version-major 4)
       (version-minor 8)
       (version-patch 7)
+      (size 13271628)
       (sha1 "8f0794c01d4739492bb2d24ea3351d874a00840d"))
 
 (file (name "{scheme-id}-v{version-major}_{version-minor}_{version-patch}.tgz")
@@ -362,6 +404,7 @@
       (version-major 4)
       (version-minor 8)
       (version-patch 8)
+      (size 13272335)
       (sha1 "0158de73b0063a1bf753097c6939468be931cbb8"))
 
 (file (name "{scheme-id}-v{version-major}_{version-minor}_{version-patch}.tgz")
@@ -373,6 +416,7 @@
       (version-major 4)
       (version-minor 8)
       (version-patch 9)
+      (size 13525267)
       (sha1 "7a6cefac700c203e386dabe32570b144854a5a60"))
 
 (file (name "{scheme-id}-v{version-major}_{version-minor}_{version-patch}.tgz")
@@ -384,6 +428,7 @@
       (version-major 4)
       (version-minor 9)
       (version-patch 0)
+      (size 13568114)
       (sha1 "6bb24e09214dd34ca5ef3bc8374865cc405601ae"))
 
 (file (name "{scheme-id}-v{version-major}_{version-minor}_{version-patch}.tgz")
@@ -395,6 +440,7 @@
       (version-major 4)
       (version-minor 9)
       (version-patch 1)
+      (size 13624618)
       (sha1 "d885d5bcf58dfed07b880b9986503c6a54efba06"))
 
 (file (name "{scheme-id}-v{version-major}_{version-minor}_{version-patch}.tgz")
@@ -406,6 +452,7 @@
       (version-major 4)
       (version-minor 9)
       (version-patch 2)
+      (size 13714749)
       (sha1 "70c2e66cdbaf544afdcfa6d396c37f72ec67e934"))
 
 (file (name "{scheme-id}-v{version-major}_{version-minor}_{version-patch}.tgz")
@@ -417,6 +464,7 @@
       (version-major 4)
       (version-minor 9)
       (version-patch 3)
+      (size 13736448)
       (sha1 "a3f836f732f367601d0df8bedb8e1324a14c413b"))
 
 (file (name "Gauche-{scheme-version}.tgz")
@@ -428,6 +476,7 @@
       (version-major 0)
       (version-minor 9)
       (version-patch 10)
+      (size 7701616)
       (sha1 "a1a35944db9b71d9117cf0d9f7806aa34711b636"))
 
 (file (name "Gauche-{scheme-version}.tgz")
@@ -439,6 +488,7 @@
       (version-major 0)
       (version-minor 9)
       (version-patch 6)
+      (size 6927530)
       (sha1 "20f2a0a4b37c40ce0175e627d5767b32d8f4eb5d"))
 
 (file (name "Gauche-{scheme-version}.tgz")
@@ -450,6 +500,7 @@
       (version-major 0)
       (version-minor 9)
       (version-patch 7)
+      (size 6861031)
       (sha1 "a505f0410e9780ac700a2f7c5a7e5e0492051911"))
 
 (file (name "Gauche-{scheme-version}.tgz")
@@ -461,6 +512,7 @@
       (version-major 0)
       (version-minor 9)
       (version-patch 8)
+      (size 7101599)
       (sha1 "ff7878ab19c56b49b4b6d77009300a3592cc903c"))
 
 (file (name "Gauche-{scheme-version}.tgz")
@@ -472,6 +524,7 @@
       (version-major 0)
       (version-minor 9)
       (version-patch 9)
+      (size 7244347)
       (sha1 "ad5e15021764b733ec913cca8b77c9a53d4ee997"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -480,6 +533,7 @@
       (original-url "https://launchpad.net/ikarus/0.0/{scheme-version}/+download/{name}")
       (scheme-id "ikarus")
       (scheme-version "0.0.1")
+      (size 1776182)
       (sha1 "f97797c39d1344814bee872a1ffdd564f1bc1e08"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -488,6 +542,7 @@
       (original-url "https://launchpad.net/ikarus/0.0/{scheme-version}/+download/{name}")
       (scheme-id "ikarus")
       (scheme-version "0.0.2")
+      (size 3838888)
       (sha1 "343cf4804a3e1bf8f659551f600c955daf67a7f7"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -496,6 +551,7 @@
       (original-url "https://launchpad.net/ikarus/0.0/{scheme-version}/+download/{name}")
       (scheme-id "ikarus")
       (scheme-version "0.0.3")
+      (size 3948264)
       (sha1 "86753288203710b194ac6acf55354e8a2028dcae"))
 
 (file (name "{title}-{scheme-version}-{commit-hash}.zip")
@@ -505,6 +561,7 @@
       (scheme-id "ironscheme")
       (scheme-version "1.0.240")
       (commit-hash "687cde5")
+      (size 1512798)
       (sha1 "02bd61960664e37b9eef79c26913c5b7cbd57f6a"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -513,6 +570,7 @@
       (original-url "http://community.schemewiki.org/kali-scheme/releases/{name}")
       (scheme-id "kali")
       (scheme-version "0.52.2")
+      (size 1065604)
       (sha1 "85e2fe2f2d01c867ab15a513a4ec7313ebd5155e"))
 
 (file (name "{scheme-id}-{scheme-version}-src.tar.gz")
@@ -521,6 +579,7 @@
       (original-url "http://larcenists.org/LarcenyReleases/{name}")
       (scheme-id "larceny")
       (scheme-version "0.97")
+      (size 11056037)
       (sha1 "a1bba8b3e6fd0a83f48129ea38154833de4d298d"))
 
 (file (name "{scheme-id}-{scheme-version}-src.tar.gz")
@@ -529,6 +588,7 @@
       (original-url "http://larcenists.org/LarcenyReleases/{name}")
       (scheme-id "larceny")
       (scheme-version "1.3")
+      (size 15111290)
       (sha1 "d0102c780efcc780e7830f86db33f70a086f514d"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -537,6 +597,7 @@
       (original-url "ftp://ftp.cs.indiana.edu/pub/scheme-repository/imp/{name}")
       (scheme-id "libscheme")
       (scheme-version "0.5")
+      (size 330082)
       (sha1 "7faa045da0e2736d522a32b0eba900842e4e45ea"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -545,6 +606,7 @@
       (original-url "https://scheme.fail/releases/{name}")
       (scheme-id "loko")
       (scheme-version "0.1.0")
+      (size 367349)
       (sha1 "55299b66e6856c3503570376ad217ebcfcafbcbf"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -553,6 +615,7 @@
       (original-url "https://scheme.fail/releases/{name}")
       (scheme-id "loko")
       (scheme-version "0.2.0")
+      (size 374792)
       (sha1 "6f50b71d6fdcba808ad7ba2df1ee2ec6bba5adb1"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -561,6 +624,7 @@
       (original-url "https://scheme.fail/releases/{name}")
       (scheme-id "loko")
       (scheme-version "0.2.1")
+      (size 376034)
       (sha1 "89305167588ebe5509416dea2524627013cf8f03"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -569,6 +633,7 @@
       (original-url "https://scheme.fail/releases/{name}")
       (scheme-id "loko")
       (scheme-version "0.3.0")
+      (size 408129)
       (sha1 "7734e0f70f1e83e0d176cecb997cc9a27b45c059"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -577,6 +642,7 @@
       (original-url "https://scheme.fail/releases/{name}")
       (scheme-id "loko")
       (scheme-version "0.3.1")
+      (size 420096)
       (sha1 "88d2808db20ea714843ac5ff21194924279aacd9"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -585,6 +651,7 @@
       (original-url "https://scheme.fail/releases/{name}")
       (scheme-id "loko")
       (scheme-version "0.3.2")
+      (size 449246)
       (sha1 "3557f883851cfb4a07531d2c9c6788c621c9a745"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -593,6 +660,7 @@
       (original-url "https://scheme.fail/releases/{name}")
       (scheme-id "loko")
       (scheme-version "0.3.3")
+      (size 462285)
       (sha1 "1761766d479a93de5ab00b7cd2297a1a498df885"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -601,6 +669,7 @@
       (original-url "https://scheme.fail/releases/{name}")
       (scheme-id "loko")
       (scheme-version "0.3.4")
+      (size 503968)
       (sha1 "8d2c4c10b3e89ae31e4e979360bc4557cc494f75"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -609,6 +678,7 @@
       (original-url "https://scheme.fail/releases/{name}")
       (scheme-id "loko")
       (scheme-version "0.4.0")
+      (size 562238)
       (sha1 "8abd3cd41f2f83097bc7c0d6faf082d391b8fe06"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -617,6 +687,7 @@
       (original-url "https://scheme.fail/releases/{name}")
       (scheme-id "loko")
       (scheme-version "0.4.1")
+      (size 563306)
       (sha1 "e16e8fa75647d506b2cd4ee326161ede53299c47"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -625,6 +696,7 @@
       (original-url "https://scheme.fail/releases/{name}")
       (scheme-id "loko")
       (scheme-version "0.4.2")
+      (size 568957)
       (sha1 "e135cd36c6c58b4754a42cb2c5ccaef7cc180f26"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -633,6 +705,7 @@
       (original-url "https://scheme.fail/releases/{name}")
       (scheme-id "loko")
       (scheme-version "0.4.3")
+      (size 742128)
       (sha1 "d2fafd9ec90b3730dc4bdec157764922d4cfdaf4"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -641,6 +714,7 @@
       (original-url "https://scheme.fail/releases/{name}")
       (scheme-id "loko")
       (scheme-version "0.4.4")
+      (size 770263)
       (sha1 "0beead07504a0898683931e511d31f234489f825"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -649,6 +723,7 @@
       (original-url "https://scheme.fail/releases/{name}")
       (scheme-id "loko")
       (scheme-version "0.5.0")
+      (size 1606780)
       (sha1 "23364b6b204e2435d3073a06b3f9f160a5b3d8af"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -657,6 +732,7 @@
       (original-url "https://scheme.fail/releases/{name}")
       (scheme-id "loko")
       (scheme-version "0.6.0")
+      (size 2804003)
       (sha1 "d2cd8f0f35954c4a43fdb4b10e0557def76d1c0f"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -665,6 +741,7 @@
       (original-url "https://scheme.fail/releases/{name}")
       (scheme-id "loko")
       (scheme-version "0.7.0")
+      (size 2886441)
       (sha1 "2b3e2213089f357235c233679b5416ae63616979"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -673,6 +750,7 @@
       (original-url "https://scheme.fail/releases/{name}")
       (scheme-id "loko")
       (scheme-version "0.8.0")
+      (size 3000196)
       (sha1 "f7760008ea494c98f014e629f6d532774676efc1"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -681,6 +759,7 @@
       (original-url "https://scheme.fail/releases/{name}")
       (scheme-id "loko")
       (scheme-version "0.9.0")
+      (size 3088369)
       (sha1 "02a5da30d97730391970afa6a5c2a9de16eee3a4"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -689,6 +768,7 @@
       (original-url "ftp://ftp.cs.indiana.edu/pub/scheme-repository/imp/minischeme.tar.gz")
       (scheme-id "minischeme")
       (scheme-version "0.85k4")
+      (size 19603)
       (sha1 "6a42adacd4469d4db38d622185f236cc6117a9de"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -697,6 +777,7 @@
       (original-url "https://t3x.org/files/miniscm3.tar.gz")
       (scheme-id "minischeme")
       (scheme-version "nmh-20130122")
+      (size 34364)
       (sha1 "59084c39899d9f6728b3b13c07bf19e9fbeb2726"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -706,6 +787,7 @@
       (scheme-id "mosh")
       (scheme-version "0.0.5")
       (approximate-release-date "2008-07-18")
+      (size 3685164)
       (sha1 "2f85b38eeaf350bec55b75442df7c6ca81ed21d7"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -715,6 +797,7 @@
       (scheme-id "mosh")
       (scheme-version "0.0.6")
       (approximate-release-date "2008-08-29")
+      (size 4828440)
       (sha1 "3eafcdd2d6c614070dd144e692985a0d56f2b5c6"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -724,6 +807,7 @@
       (scheme-id "mosh")
       (scheme-version "0.0.7")
       (approximate-release-date "2008-10-31")
+      (size 3629298)
       (sha1 "c95a7e75205ce20f703eb2a3e91f5fd2987e6bfc"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -733,6 +817,7 @@
       (scheme-id "mosh")
       (scheme-version "0.1.0")
       (approximate-release-date "2009-05-03")
+      (size 8025569)
       (sha1 "33422f6b5bf2b0af9e4c224243a1d07454b56aed"))
 
 (file (name "{scheme-id}-{scheme-version}-setup-win32.exe")
@@ -742,6 +827,7 @@
       (scheme-id "mosh")
       (scheme-version "0.1.0")
       (approximate-release-date "2009-05-03")
+      (size 1762616)
       (sha1 "bb447c950af39c227402865c06af37103ab5b1c5"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -751,6 +837,7 @@
       (scheme-id "mosh")
       (scheme-version "0.1.1")
       (approximate-release-date "2009-05-07")
+      (size 7529733)
       (sha1 "2bc0eb3a59c703e35328fe57e1679547c60f6c24"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -760,6 +847,7 @@
       (scheme-id "mosh")
       (scheme-version "0.1.2")
       (approximate-release-date "2009-05-13")
+      (size 7595786)
       (sha1 "5f5f055616bd651ec6a1471577fe8b50fb87452d"))
 
 (file (name "{scheme-id}-{scheme-version}-setup-win32.exe")
@@ -769,6 +857,7 @@
       (scheme-id "mosh")
       (scheme-version "0.1.2")
       (approximate-release-date "2009-05-13")
+      (size 1766657)
       (sha1 "4b554fcc49c2ab4898ca3eda6d3212369f4abee6"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -778,6 +867,7 @@
       (scheme-id "mosh")
       (scheme-version "0.2.0")
       (approximate-release-date "2009-08-07")
+      (size 7269132)
       (sha1 "4a8b5d939d7db3cd26584b4a5e85e0773b9edd5d"))
 
 (file (name "{scheme-id}-{scheme-version}-setup-win32.exe")
@@ -787,6 +877,7 @@
       (scheme-id "mosh")
       (scheme-version "0.2.0")
       (approximate-release-date "2009-08-07")
+      (size 1565300)
       (sha1 "c333ca4e2e421a51a39017d38e3e47fbbeb6afa7"))
 
 (file (name "{scheme-id}-{scheme-version}-setup-win32.exe")
@@ -796,6 +887,7 @@
       (scheme-id "mosh")
       (scheme-version "0.2.1")
       (approximate-release-date "2009-08-13")
+      (size 1568910)
       (sha1 "0b74afddb77f1344c707a45a6e426079718d5f37"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -805,6 +897,7 @@
       (scheme-id "mosh")
       (scheme-version "0.2.2")
       (approximate-release-date "2010-02-09")
+      (size 6833046)
       (sha1 "dfbe9c8d2d25d60a22998b785ad0a2eb86c7d085"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -814,6 +907,7 @@
       (scheme-id "mosh")
       (scheme-version "0.2.3")
       (approximate-release-date "2010-02-28")
+      (size 6790815)
       (sha1 "6fde83d86c56f97f04039f9e47ca63a03c15cf33"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -823,6 +917,7 @@
       (scheme-id "mosh")
       (scheme-version "0.2.4")
       (approximate-release-date "2010-04-15")
+      (size 7291904)
       (sha1 "d7be6fcb642fe0cd34473e80429d716a0986dc16"))
 
 (file (name "{scheme-id}-{scheme-version}-setup-win32.exe")
@@ -832,6 +927,7 @@
       (scheme-id "mosh")
       (scheme-version "0.2.4")
       (approximate-release-date "2010-04-16")
+      (size 1564634)
       (sha1 "47c250d744b022eb11bf277c60d686dda4464ad0"))
 
 (file (name "{scheme-id}-{scheme-version}-1.tar.gz")
@@ -841,6 +937,7 @@
       (scheme-id "mosh")
       (scheme-version "0.2.5")
       (approximate-release-date "2010-05-16")
+      (size 7268519)
       (sha1 "48852f82785c28ea65975502a30a0f382b112741"))
 
 (file (name "{scheme-id}-{scheme-version}-setup-win32.exe")
@@ -850,6 +947,7 @@
       (scheme-id "mosh")
       (scheme-version "0.2.5")
       (approximate-release-date "2010-05-16")
+      (size 1500060)
       (sha1 "fdecbc1d5c32c8ae4b3bda6b0737638948543c86"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -859,6 +957,7 @@
       (scheme-id "mosh")
       (scheme-version "0.2.6")
       (approximate-release-date "2010-11-06")
+      (size 6316738)
       (sha1 "0abf95b58bebf278dd33ae78cc2a6d32ff007dca"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -868,6 +967,7 @@
       (scheme-id "mosh")
       (scheme-version "0.2.6p")
       (approximate-release-date "2010-11-06")
+      (size 6316772)
       (sha1 "55c5a140569ae4c53486b07141375b67e0bfa756"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -877,12 +977,14 @@
       (scheme-id "mosh")
       (scheme-version "0.2.7")
       (approximate-release-date "2011-06-17")
+      (size 5923017)
       (sha1 "866c08ac12e14733ce27756001a27257624d01ad"))
 
 (file (name "oscheme-19950317.tar.gz")
       (title "Oscheme (Objective Scheme)")
       (note "Scheme implementation; source code; no version number in archive")
       (original-url "ftp://ftp.cs.indiana.edu/pub/scheme-repository/imp/oscheme.tar.gz")
+      (size 238837)
       (sha1 "f2388c070201a4ecc67f9bfc51754d384a361fce"))
 
 (file (name "owl-v{scheme-version}.tar.gz")
@@ -890,6 +992,7 @@
       (note "Scheme implementation; source code")
       (original-url "https://gitlab.com/owl-lisp/owl/-/archive/v{scheme-version}/{name}")
       (scheme-version "0.1.16")
+      (size 495662)
       (sha1 "f929b69bc3239708f421b75915fd6fe66fd94a77"))
 
 (file (name "owl-v{scheme-version}.tar.gz")
@@ -897,6 +1000,7 @@
       (note "Scheme implementation; source code")
       (original-url "https://gitlab.com/owl-lisp/owl/-/archive/v{scheme-version}/{name}")
       (scheme-version "0.1.17")
+      (size 499486)
       (sha1 "aefd3331cbf4c4ca7b258a2cca696076bf31fe3a"))
 
 (file (name "owl-v{scheme-version}.tar.gz")
@@ -904,6 +1008,7 @@
       (note "Scheme implementation; source code")
       (original-url "https://gitlab.com/owl-lisp/owl/-/archive/v{scheme-version}/{name}")
       (scheme-version "0.1.18")
+      (size 493528)
       (sha1 "75b0359838ddd53f58208351414b78283ad07e24"))
 
 (file (name "owl-v{scheme-version}.tar.gz")
@@ -911,6 +1016,7 @@
       (note "Scheme implementation; source code")
       (original-url "https://gitlab.com/owl-lisp/owl/-/archive/v{scheme-version}/{name}")
       (scheme-version "0.1.19")
+      (size 493701)
       (sha1 "f9afb644d5a1d3eaf117178e2120da26fbab2797"))
 
 (file (name "owl-v{scheme-version}.tar.gz")
@@ -918,6 +1024,7 @@
       (note "Scheme implementation; source code")
       (original-url "https://gitlab.com/owl-lisp/owl/-/archive/v{scheme-version}/{name}")
       (scheme-version "0.1.20")
+      (size 505286)
       (sha1 "5580cd8a5ae0fc700e8f4afafa211b898418079e"))
 
 (file (name "owl-v{scheme-version}.tar.gz")
@@ -925,6 +1032,7 @@
       (note "Scheme implementation; source code")
       (original-url "https://gitlab.com/owl-lisp/owl/-/archive/v{scheme-version}/{name}")
       (scheme-version "0.1.21")
+      (size 493611)
       (sha1 "b2f301748eb378c5fff402677b04860d672d82e9"))
 
 (file (name "owl-v{scheme-version}.tar.gz")
@@ -932,6 +1040,7 @@
       (note "Scheme implementation; source code")
       (original-url "https://gitlab.com/owl-lisp/owl/-/archive/v{scheme-version}/{name}")
       (scheme-version "0.2")
+      (size 515574)
       (sha1 "7cdd524920c6f068097e4446b352a06116dbb959"))
 
 (file (name "psyntax-r6rs-{version}.tgz")
@@ -939,6 +1048,7 @@
       (note "portable R6RS library expander; source code")
       (original-url "https://www.scheme.com/syntax-case/r6rs-libraries/{name}")
       (version "rev1")
+      (size 1073799)
       (sha1 "b125323edcc266c9bc82e456722a276397fe6196"))
 
 (file (name "psyntax-r6rs-{version}.tgz")
@@ -946,6 +1056,7 @@
       (note "portable R6RS library expander; source code")
       (original-url "https://www.scheme.com/syntax-case/r6rs-libraries/{name}")
       (version "rev4")
+      (size 1274874)
       (sha1 "21e07a4a552a3cc2461f9d1c72a5fef76dc63a37"))
 
 (file (name "{title}-{version}.tar.Z")
@@ -953,6 +1064,7 @@
       (note "Scheme libraries; source code")
       (original-url "ftp://ftp.ecn.purdue.edu/qobi/{name}")
       (version "1.47")
+      (size 1284141)
       (sha1 "72ecfec71faea1d3e5836cb2e02006528b74e836"))
 
 (file (name "r2rs-nbs.pdf")
@@ -960,12 +1072,14 @@
       (note "also known as R^2RS; scanned OCR PDF from National Bureau of Standards")
       (original-url "https://apps.dtic.mil/sti/pdfs/ADA159423.pdf")
       (rnrs 2)
+      (size 3581675)
       (sha1 "3400d1aa073649a60caf2907f5af1ad52f77f3ff"))
 
 (file (name "rabbit.lsp")
       (title "Rabbit")
       (note "source code from the paper Rabbit: a compiler for Scheme")
       (original-url "http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/lang/scheme/impl/rabbit/{name}")
+      (size 123047)
       (sha1 "7a605ebe63357c1db32b00bc9029186b53de5bc9"))
 
 (file (name "rs-{scheme-version}.tar.gz")
@@ -974,6 +1088,7 @@
       (manual-original-url "https://web.archive.org/web/20160804005509/http://www.rscheme.org/rs/b/0.7.3.4/7/{name}")
       (scheme-id "rscheme")
       (scheme-version "0.7.3.4-b7")
+      (size 2552630)
       (sha1 "0edd4763394229dbe8015fd246d891d6285e4cba"))
 
 (file (name "s9core-{scheme-version}.tgz")
@@ -982,6 +1097,7 @@
       (original-url "http://t3x.org/{scheme-id}/{name}")
       (scheme-id "s9fes")
       (scheme-version "20181205")
+      (size 47803)
       (sha1 "0e36f1a2f47e1276404dd1c143a9488782505b67"))
 
 (file (name "{scheme-id}-{year}.tgz")
@@ -990,6 +1106,7 @@
       (original-url "https://t3x.org/files/{name}")
       (scheme-id "s9fes")
       (year "2007")
+      (size 39112)
       (sha1 "6d86771f3063c3245e15cc4ba1a62748bea752bd"))
 
 (file (name "{scheme-id}-{year}.tgz")
@@ -998,6 +1115,7 @@
       (original-url "https://t3x.org/files/{name}")
       (scheme-id "s9fes")
       (year "2014")
+      (size 447262)
       (sha1 "b286ce6b8e6c5059237e1ed1597c8f1933b3668b"))
 
 (file (name "{scheme-id}-{year}.tgz")
@@ -1006,6 +1124,7 @@
       (original-url "https://t3x.org/files/{name}")
       (scheme-id "s9fes")
       (year "2018")
+      (size 492206)
       (sha1 "a264461f4f84aee98568426080c70533922ce42a"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -1014,6 +1133,7 @@
       (original-url "http://t3x.org/{scheme-id}/{name}")
       (scheme-id "s9fes")
       (scheme-version "20181205")
+      (size 514531)
       (sha1 "c683ae2882745a879f4816349f870b913bbd3f83"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1022,6 +1142,7 @@
       (original-url "https://bitbucket.org/ktakashi/sagittarius-scheme/downloads/{name}")
       (scheme-id "sagittarius")
       (scheme-version "0.9.7")
+      (size 7184461)
       (sha1 "b1f32c41da22c003f5b3628f39050c04cf5bbf2b"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -1030,6 +1151,7 @@
       (original-url "https://www.s48.org/{scheme-version}/{name}")
       (scheme-id "scheme48")
       (scheme-version "0.52")
+      (size 970515)
       (sha1 "e93e6165bc71a75293d27236414d92663997480c"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -1038,6 +1160,7 @@
       (original-url "https://www.s48.org/{scheme-version}/{name}")
       (scheme-id "scheme48")
       (scheme-version "0.53")
+      (size 1167861)
       (sha1 "66d706b4b86389c26d22fb430654139ec3f04678"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -1046,6 +1169,7 @@
       (original-url "https://www.s48.org/{scheme-version}/{name}")
       (scheme-id "scheme48")
       (scheme-version "0.54")
+      (size 1469686)
       (sha1 "943109a353115ac6fc8dde735aadbb9e0182dceb"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -1054,6 +1178,7 @@
       (original-url "https://www.s48.org/{scheme-version}/{name}")
       (scheme-id "scheme48")
       (scheme-version "0.55")
+      (size 1391983)
       (sha1 "6e3be55dfd4bd78739ee47b8eb14106fa10d0cf6"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -1062,6 +1187,7 @@
       (original-url "https://www.s48.org/{scheme-version}/{name}")
       (scheme-id "scheme48")
       (scheme-version "0.56")
+      (size 1395038)
       (sha1 "b86af1c6b1d72231a4cc58d5aeb432b2d708933f"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -1070,6 +1196,7 @@
       (original-url "https://www.s48.org/{scheme-version}/{name}")
       (scheme-id "scheme48")
       (scheme-version "0.57")
+      (size 1439283)
       (sha1 "cb7b85a89419fd93defab03a67558eb4939a9bda"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -1078,6 +1205,7 @@
       (original-url "https://www.s48.org/{scheme-version}/{name}")
       (scheme-id "scheme48")
       (scheme-version "0.58")
+      (size 1289101)
       (sha1 "058bb0981dc3c155a2ac271b91d85124c9c04508"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -1086,6 +1214,7 @@
       (original-url "https://www.s48.org/{scheme-version}/{name}")
       (scheme-id "scheme48")
       (scheme-version "1.1")
+      (size 2030457)
       (sha1 "c37fde6a5a71b6bb855da4fc3f3798cf0a1d3e3d"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -1094,6 +1223,7 @@
       (original-url "https://www.s48.org/{scheme-version}/{name}")
       (scheme-id "scheme48")
       (scheme-version "1.2")
+      (size 2048113)
       (sha1 "de3f29a7ade57f3d9340fa52bd5e3aa09a3cad04"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -1102,6 +1232,7 @@
       (original-url "https://www.s48.org/{scheme-version}/{name}")
       (scheme-id "scheme48")
       (scheme-version "1.3")
+      (size 2322178)
       (sha1 "be1704893b5932fc304b8a2e2279ec753a49f15b"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -1110,6 +1241,7 @@
       (original-url "https://www.s48.org/{scheme-version}/{name}")
       (scheme-id "scheme48")
       (scheme-version "1.4")
+      (size 2372707)
       (sha1 "71e170f10e43ae80884fb88041fc15e1db3f2f22"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -1118,6 +1250,7 @@
       (original-url "https://www.s48.org/{scheme-version}/{name}")
       (scheme-id "scheme48")
       (scheme-version "1.5")
+      (size 2541876)
       (sha1 "9f9b503c609b8d1dca4b6edd6afe748ed0b124dd"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -1126,6 +1259,7 @@
       (original-url "https://www.s48.org/{scheme-version}/{name}")
       (scheme-id "scheme48")
       (scheme-version "1.6")
+      (size 2530302)
       (sha1 "c88e2cf6cc893f1fd2fb571cc26fc7c5342a3ceb"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -1134,6 +1268,7 @@
       (original-url "https://www.s48.org/{scheme-version}/{name}")
       (scheme-id "scheme48")
       (scheme-version "1.7")
+      (size 2637325)
       (sha1 "2f1949f5179c52b2ebc007808985874884c16875"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -1142,6 +1277,7 @@
       (original-url "https://www.s48.org/{scheme-version}/{name}")
       (scheme-id "scheme48")
       (scheme-version "1.8")
+      (size 3173151)
       (sha1 "75299fe9de4bf239fc1d5a7dfa2ec377e0e98df1"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -1150,6 +1286,7 @@
       (original-url "https://www.s48.org/{scheme-version}/{name}")
       (scheme-id "scheme48")
       (scheme-version "1.9")
+      (size 3945425)
       (sha1 "8fd78d328a8c39ecd848e849ade094c30c2bb4ba"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -1158,6 +1295,7 @@
       (original-url "https://www.s48.org/{scheme-version}/{name}")
       (scheme-id "scheme48")
       (scheme-version "1.9.1")
+      (size 3950941)
       (sha1 "dfc5f58b2e175216aa850910c761238774c1b7b1"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -1166,6 +1304,7 @@
       (original-url "https://www.s48.org/{scheme-version}/{name}")
       (scheme-id "scheme48")
       (scheme-version "1.9.2")
+      (size 3951356)
       (sha1 "b2d02b6ddac56e566d170b9c916f11dbd182390a"))
 
 (file (name "{scheme-id}-{scheme-version}.zip")
@@ -1174,6 +1313,7 @@
       (original-url "http://groups.csail.mit.edu/mac/ftpdir/{scheme-id}/{name}")
       (scheme-id "scm")
       (scheme-version "5f1")
+      (size 952965)
       (sha1 "ea7ef323e8119a6cf8dbbd8f965925b97b531c77"))
 
 (file (name "{scheme-id}-{scheme-version}.zip")
@@ -1182,6 +1322,7 @@
       (original-url "http://groups.csail.mit.edu/mac/ftpdir/{scheme-id}/{name}")
       (scheme-id "scm")
       (scheme-version "5f2")
+      (size 954890)
       (sha1 "8290e7c39fd2501b16a32fb5aa572c2aefdbb809"))
 
 (file (name "{scheme-id}-{scheme-version}.zip")
@@ -1190,6 +1331,7 @@
       (original-url "http://groups.csail.mit.edu/mac/ftpdir/{scheme-id}/{name}")
       (scheme-id "scm")
       (scheme-version "5f3")
+      (size 950983)
       (sha1 "c94f06668d86e0c670683ee28292aff0c54c6d24"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1198,6 +1340,7 @@
       (original-url "ftp://ftp.cs.indiana.edu/pub/scheme-repository/imp/{name}")
       (scheme-id "scsh")
       (scheme-version "0.5.0")
+      (size 1466879)
       (sha1 "fcd40a9866a0767e7b4651c96763970c8ea64a21"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1206,6 +1349,7 @@
       (original-url "ftp://ftp.cs.indiana.edu/pub/scheme-repository/imp/{name}")
       (scheme-id "siod")
       (scheme-version "3.0")
+      (size 54930)
       (sha1 "f5f0682480464135cc94c0275997cb06505480a8"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1214,6 +1358,7 @@
       (original-url "ftp://ftp.cs.indiana.edu/pub/scheme-repository/imp/{name}")
       (scheme-id "siod")
       (scheme-version "3.2")
+      (size 155073)
       (sha1 "ee6183873be7cabdd0bba7deecf893ced10ca8b1"))
 
 (file (name "slib-{version}.tar.gz")
@@ -1221,6 +1366,7 @@
       (note "Scheme library; source code")
       (original-url "http://groups.csail.mit.edu/mac/ftpdir/scm/{name}")
       (version "3b4")
+      (size 974395)
       (sha1 "d8c7e2ca849cbe456b6ceb1454c8f1e76e2f8661"))
 
 (file (name "slib-{version}.zip")
@@ -1228,6 +1374,7 @@
       (note "Scheme library; source code")
       (original-url "http://groups.csail.mit.edu/mac/ftpdir/scm/{name}")
       (version "3b4")
+      (size 1099910)
       (sha1 "dda1ed78ff7164738a1a8c51f1f7c08ec1db79eb"))
 
 (file (name "slib-{version}.tar.gz")
@@ -1235,6 +1382,7 @@
       (note "Scheme library; source code")
       (original-url "http://groups.csail.mit.edu/mac/ftpdir/scm/{name}")
       (version "3b5")
+      (size 987735)
       (sha1 "15592cbb3e2b67bbdc5c34b00a2247043b343360"))
 
 (file (name "slib-{version}.zip")
@@ -1242,6 +1390,7 @@
       (note "Scheme library; source code")
       (original-url "http://groups.csail.mit.edu/mac/ftpdir/scm/{name}")
       (version "3b5")
+      (size 1105432)
       (sha1 "1f58419af39b4c5501b7bd2bfeed9120c85c5faf"))
 
 (file (name "slib-{version}.tar.gz")
@@ -1249,6 +1398,7 @@
       (note "Scheme library; source code")
       (original-url "http://groups.csail.mit.edu/mac/ftpdir/scm/{name}")
       (version "3b6")
+      (size 984759)
       (sha1 "3346cf1a297ca25adcecbb0ca50c420902fec15c"))
 
 (file (name "slib-{version}.zip")
@@ -1256,6 +1406,7 @@
       (note "Scheme library; source code")
       (original-url "http://groups.csail.mit.edu/mac/ftpdir/scm/{name}")
       (version "3b6")
+      (size 1117888)
       (sha1 "77f0af7de8ed29c0f251c448047929b6029b37d0"))
 
 (file (name "{scheme-id}-{scheme-version}.tgz")
@@ -1264,6 +1415,7 @@
       (original-url "ftp://ftp.ecn.purdue.edu/qobi/{name}")
       (scheme-id "stalin")
       (scheme-version "0.11")
+      (size 5392735)
       (sha1 "f1e6107685c9070c84cb9002030b06a9814337c9"))
 
 (file (name "STk-{scheme-version}.tar.gz")
@@ -1272,6 +1424,7 @@
       (original-url "http://kaolin.unice.fr/STk/Distrib/{name}")
       (scheme-id "stk")
       (scheme-version "3.1.1")
+      (size 2608212)
       (sha1 "2e9fecad0594f1fdfd2f3232e0148cc6e87894f5"))
 
 (file (name "STk-{scheme-version}.tar.gz")
@@ -1280,6 +1433,7 @@
       (original-url "http://kaolin.unice.fr/STk/Distrib/{name}")
       (scheme-id "stk")
       (scheme-version "3.99.0")
+      (size 3140987)
       (sha1 "8c4a1b73a99dcdab546e6e7c5ef7b4ea51b6b4ee"))
 
 (file (name "STk-{scheme-version}.tar.gz")
@@ -1288,6 +1442,7 @@
       (original-url "http://kaolin.unice.fr/STk/Distrib/{name}")
       (scheme-id "stk")
       (scheme-version "3.99.1")
+      (size 3156258)
       (sha1 "e9ac0da00656978818fab21b2497e9455e7373b8"))
 
 (file (name "STk-{scheme-version}.tar.gz")
@@ -1296,6 +1451,7 @@
       (original-url "http://kaolin.unice.fr/STk/Distrib/{name}")
       (scheme-id "stk")
       (scheme-version "3.99.2")
+      (size 3195199)
       (sha1 "089a23dd6810230bc1994cda58999c12e5c7f8af"))
 
 (file (name "STk-{scheme-version}.tar.gz")
@@ -1304,6 +1460,7 @@
       (original-url "http://kaolin.unice.fr/STk/Distrib/{name}")
       (scheme-id "stk")
       (scheme-version "3.99.3")
+      (size 3409772)
       (sha1 "02bc4e7db3e85174028f4ac5dac1dfdfe0d39cfb"))
 
 (file (name "STk-{scheme-version}.tar.gz")
@@ -1311,6 +1468,7 @@
       (note "Scheme implementation; source code")
       (original-url "http://kaolin.unice.fr/STk/Distrib/{name}")
       (scheme-id "stk")
+      (size 3681089)
       (scheme-version "3.99.4")
       (sha1 "3b2c0eb3d00c82de93b6b8a8955447305d7f6ad8"))
 
@@ -1320,6 +1478,7 @@
       (original-url "http://kaolin.unice.fr/STk/Distrib/{name}")
       (scheme-id "stk")
       (scheme-version "4.0.0")
+      (size 3665087)
       (sha1 "33428aa40d334416f96f2f0f3426031f90488f58"))
 
 (file (name "STk-{scheme-version}.tar.gz")
@@ -1328,6 +1487,7 @@
       (original-url "http://kaolin.unice.fr/STk/Distrib/{name}")
       (scheme-id "stk")
       (scheme-version "4.0.1")
+      (size 3673684)
       (sha1 "50dc98c2b64db1c9cca54411cb406feb4cb57600"))
 
 (file (name "stklos-{scheme-version}.tar.gz")
@@ -1337,6 +1497,7 @@
       (scheme-id "stklos")
       (scheme-version "1.00")
       (release-date "2010-08-11")
+      (size 5861046)
       (sha1 "397054641bbc721a4f3dfb2c85a31889e7ecbf93"))
 
 (file (name "stklos-{scheme-version}.tar.gz")
@@ -1346,6 +1507,7 @@
       (scheme-id "stklos")
       (scheme-version "1.01")
       (release-date "2010-12-30")
+      (size 5865061)
       (sha1 "bc2b6e7ea2bed278247cc155eae5d13e3ed7a0a6"))
 
 (file (name "stklos-{scheme-version}.tar.gz")
@@ -1355,6 +1517,7 @@
       (scheme-id "stklos")
       (scheme-version "1.10")
       (release-date "2011-12-31")
+      (size 6097807)
       (sha1 "113551b6bee26fbe5c835ef0db292b9276cccaa0"))
 
 (file (name "stklos-{scheme-version}.tar.gz")
@@ -1364,6 +1527,7 @@
       (scheme-id "stklos")
       (scheme-version "1.20")
       (release-date "2018-06-04")
+      (size 6080615)
       (sha1 "e864b0db5891d40e07589421a7f71771b2140183"))
 
 (file (name "stklos-{scheme-version}.tar.gz")
@@ -1373,6 +1537,7 @@
       (scheme-id "stklos")
       (scheme-version "1.30")
       (release-date "2019-07-04")
+      (size 7517452)
       (sha1 "696a3962af775f03ccac180a30053d97b5139e84"))
 
 (file (name "stklos-{scheme-version}.tar.gz")
@@ -1382,6 +1547,7 @@
       (scheme-id "stklos")
       (scheme-version "1.31")
       (release-date "2019-07-13")
+      (size 7571786)
       (sha1 "a342010f377a4a331c3581cf38bf220e9a69f0ee"))
 
 (file (name "stklos-{scheme-version}.tar.gz")
@@ -1391,6 +1557,7 @@
       (scheme-id "stklos")
       (scheme-version "1.40")
       (release-date "2020-06-05")
+      (size 7600720)
       (sha1 "24653007301d1ad031f9bac13b0e5fe7374be942"))
 
 (file (name "stklos-{scheme-version}.tar.gz")
@@ -1400,6 +1567,7 @@
       (scheme-id "stklos")
       (scheme-version "1.50")
       (release-date "2020-08-17")
+      (size 7750611)
       (sha1 "9d96a37f0a5e54cdbb3f668d41d38b1c7d124a97"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1408,6 +1576,7 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/TinyScheme%20archive/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.19")
+      (size 94245)
       (sha1 "64346da246dbc9d3e34619184452f7143d9d8c58"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1416,6 +1585,7 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/TinyScheme%20archive/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.20")
+      (size 99302)
       (sha1 "852f6f86e202613d5c5125d6690e25b3c5ad5092"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1424,6 +1594,7 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/TinyScheme%20archive/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.21")
+      (size 99511)
       (sha1 "a7b30aa6457b9b24a3293609371c9263112e6aa1"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1432,6 +1603,7 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/TinyScheme%20archive/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.22")
+      (size 47407)
       (sha1 "6beb8e289a1f9d809ec1dd86bf5223193a35ec86"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1440,6 +1612,7 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/TinyScheme%20archive/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.23")
+      (size 47498)
       (sha1 "e7d3cd8d001fbd9c6b11dad19458ea8d1ccc31dc"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1448,6 +1621,7 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/TinyScheme%20archive/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.24")
+      (size 47501)
       (sha1 "66f35a7dd711523aca67816dea6d88cbd7105023"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1456,6 +1630,7 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/TinyScheme%20archive/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.25")
+      (size 47917)
       (sha1 "315c2a9be5ce427aa2e10840979fd98b9df3ecdb"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1464,6 +1639,7 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/TinyScheme%20archive/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.27")
+      (size 48187)
       (sha1 "d13838fa1cbf572adb4697bcd647aa4877642bfa"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1472,6 +1648,7 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/TinyScheme%20archive/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.28")
+      (size 48635)
       (sha1 "a6d22232f49c016e3584ed1b131e5969d8ec9224"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1480,6 +1657,7 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/TinyScheme%20archive/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.29")
+      (size 48832)
       (sha1 "25c114b439ee393bfef4ab96d91360e8a0874d03"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1488,6 +1666,7 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/TinyScheme%20archive/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.30")
+      (size 50835)
       (sha1 "2fa489be96c4bcc5dcae179c2ca417dba84228ac"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1496,6 +1675,7 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/TinyScheme%20archive/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.31")
+      (size 50828)
       (sha1 "5a99f5d223be0ce4df440d0e4d5fd9568cea2418"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1504,6 +1684,7 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/TinyScheme%20archive/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.32")
+      (size 52566)
       (sha1 "23153b10b91f99ebf8b925f865f7b77e59b5f41c"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1512,6 +1693,7 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/TinyScheme%20archive/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.33")
+      (size 52733)
       (sha1 "c596b428487c001d31f812137673a2683b352fae"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1520,6 +1702,7 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/TinyScheme%20archive/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.34")
+      (size 54331)
       (sha1 "a716c5c7e98e20e31a965b87d9c54a56be8c35ac"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1528,6 +1711,7 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/{scheme-id}-{scheme-version}/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.35")
+      (size 54363)
       (sha1 "02b740020bd68648f78207dd4a5e39bb57151ece"))
 
 (file (name "{scheme-id}-{scheme-version}.zip")
@@ -1536,6 +1720,7 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/{scheme-id}-{scheme-version}/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.36")
+      (size 57580)
       (sha1 "6e2651db913909137957488f2756624db2c992eb"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1544,6 +1729,7 @@
       (manual-original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/{scheme-id}-{scheme-version}/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.40")
+      (size 60160)
       (sha1 "e03f7ac41f0517bb35eced2772c79eb9db42ea82"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1552,6 +1738,7 @@
       (manual-original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/{scheme-id}-{scheme-version}/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.41")
+      (size 61761)
       (sha1 "cbbb1183985dd45dedf1b6b5907ff3cc4a516d79"))
 
 (file (name "{scheme-id}-{scheme-version}.zip")
@@ -1560,6 +1747,7 @@
       (manual-original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/{scheme-id}-{scheme-version}/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.41")
+      (size 67419)
       (sha1 "dcdb9828c71080e3e5a339b8908fa9afe464335d"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1568,6 +1756,7 @@
       (manual-original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/{scheme-id}-{scheme-version}/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.42")
+      (size 62156)
       (sha1 "d440230eee1c56b8c0296e6ced9f12a6dbee9a7b"))
 
 (file (name "{scheme-id}-{scheme-version}.zip")
@@ -1576,6 +1765,7 @@
       (manual-original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/{scheme-id}-{scheme-version}/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.42")
+      (size 68021)
       (sha1 "153300620e76eb4a3305487d9c7a518741c3c91e"))
 
 (file (name "{scheme-id}{scheme-version}.zip")
@@ -1584,6 +1774,7 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/{scheme-id}-{scheme-version}/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.37")
+      (size 57765)
       (sha1 "7fecd23bde00b1112c0ae6a3ead1baf748c97049"))
 
 (file (name "{scheme-id}{scheme-version}.zip")
@@ -1592,6 +1783,7 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/{scheme-id}-{scheme-version}/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.38")
+      (size 58182)
       (sha1 "e20b81940b92b48b48a3a8ead812e7f0f12ca6ae"))
 
 (file (name "{scheme-id}{scheme-version}.zip")
@@ -1600,18 +1792,21 @@
       (original-url "https://sourceforge.net/projects/{scheme-id}/files/{scheme-id}/{scheme-id}-{scheme-version}/{name}/download")
       (scheme-id "tinyscheme")
       (scheme-version "1.39")
+      (size 58751)
       (sha1 "d759bff93683399ee7abbfd1a822d000adb22a0c"))
 
 (file (name "vx-scheme-20080617-repo.git.tar.gz")
       (title "Vx-Scheme")
       (note "Scheme implementation; svn to git conversion from Lassi Kortela")
       (original-url "https://misc.lassi.io/2021/vx-scheme-20080617-repo.git.tar.gz")
+      (size 446672)
       (sha1 "ad94074d679444aac2bda3174af5788c87927bd3"))
 
 (file (name "vx-scheme-20080617-repo.svndump.gz")
       (title "Vx-Scheme")
       (note "Scheme implementation; final Subversion repository from Google Code")
       (original-url "https://storage.googleapis.com/google-code-archive-source/v2/code.google.com/vx-scheme/repo.svndump.gz")
+      (size 345867)
       (sha1 "b1126be83d49dfb4ff4298eb931eb3089a6c83c1"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
@@ -1620,4 +1815,5 @@
       (original-url "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/{scheme-id}/{name}")
       (scheme-id "ypsilon")
       (scheme-version "0.9.6.update3")
+      (size 4555843)
       (sha1 "ee76b90e5a086755867075039ffe478e6b067995"))
