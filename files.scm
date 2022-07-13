@@ -1879,7 +1879,7 @@
 
 (file (name "{package}-{version}.tar.gz")
       (title "{package}")
-      (note "troff translator with Scheme scripting; source code")
+      (note "troff translator with Elk Scheme scripting; source code")
       (original-url "https://www-rn.informatik.uni-bremen.de/software/unroff/dist/{name}")
       (package "unroff")
       (version "1.0")
