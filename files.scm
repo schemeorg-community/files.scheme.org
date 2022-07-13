@@ -1877,6 +1877,15 @@
       (size 58751)
       (sha1 "d759bff93683399ee7abbfd1a822d000adb22a0c"))
 
+(file (name "{package}-{version}.tar.gz")
+      (title "{package}")
+      (note "troff translator with Scheme scripting; source code")
+      (original-url "https://www-rn.informatik.uni-bremen.de/software/unroff/dist/{name}")
+      (package "unroff")
+      (version "1.0")
+      (size 83202)
+      (sha1 "bc8159ec7862de9f50666e79a538f46fdec4314c"))
+
 (file (name "vx-scheme-20080617-repo.git.tar.gz")
       (title "Vx-Scheme")
       (note "Scheme implementation; svn to git conversion from Lassi Kortela")
