@@ -102,11 +102,11 @@
                  (content ,description))))
        (body
         ,(menu-sxml
-          '(("Home" "https://scheme.org/")
-            ("Docs" "https://doc.scheme.org/")
-            ("Community" "https://community.scheme.org/")
-            ("Standards" "https://standards.scheme.org/")
-            ("Implementations" "https://implementations.scheme.org/")))
+          '(("Home" "//www.scheme.org/")
+            ("Docs" "//docs.scheme.org/")
+            ("Community" "//community.scheme.org/")
+            ("Standards" "//standards.scheme.org/")
+            ("Implementations" "//get.scheme.org/")))
         (h1 (@ (id "logo"))
             ,title)
         (table
