@@ -595,6 +595,18 @@
       (size 1065604)
       (sha1 "85e2fe2f2d01c867ab15a513a4ec7313ebd5155e"))
 
+(file (name "{scheme-id}-{scheme-version}.tar.gz")
+      (title "Kali")
+      (note "Scheme implementation; source code")
+      (old-original-url "http://1946875.tripod.com/lisp/{name}")
+      (manual-original-url
+       "https://web.archive.org/web/{archive-date}/{old-original-url}")
+      (archive-date "20060518172501")
+      (scheme-id "kali")
+      (scheme-version "1.2.1")
+      (size 6481920)
+      (sha1 "72f28d0313d3d3b5c87f96c92460a6d4c9e9b913"))
+
 (file (name "{scheme-id}-{scheme-version}-src.tar.gz")
       (title "Larceny")
       (note "Scheme implementation; source code")
