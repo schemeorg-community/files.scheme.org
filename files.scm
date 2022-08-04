@@ -613,6 +613,15 @@
       (size 1512798)
       (sha1 "02bd61960664e37b9eef79c26913c5b7cbd57f6a"))
 
+(file (name "{scheme-id}-{scheme-version}.zip")
+      (title "JScheme")
+      (note "Scheme implementation; source code")
+      (manual-original-url "http://prdownloads.sourceforge.net/jscheme/{scheme-id}-{scheme-version}.zip?download")
+      (scheme-id "jscheme")
+      (scheme-version "7.2")
+      (size "2651802")
+      (sha1 "c2cb5ca6dbb857dfb8f636e6f523309b49a67058"))
+
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
       (title "Kali")
       (note "Scheme implementation; source code")
@@ -633,6 +642,15 @@
       (scheme-version "1.2.1")
       (size 6481920)
       (sha1 "72f28d0313d3d3b5c87f96c92460a6d4c9e9b913"))
+
+(file (name "{scheme-id}-{scheme-version}.zip")
+      (title "Kawa")
+      (note "Scheme implementation; source code")
+      (manual-original-url "https://www.mirrorservice.org/sites/ftp.gnu.org/gnu/kawa/{scheme-id}-{scheme-version}.zip")
+      (scheme-id "kawa")
+      (scheme-version "3.1.1")
+      (size "5117877")
+      (sha1 "89fa06768a5594fde7849f439c5db91396f81cc2"))
 
 (file (name "{scheme-id}-{scheme-version}-src.tar.gz")
       (title "Larceny")
@@ -1812,6 +1830,15 @@
       (scheme-version "3.2")
       (size 155073)
       (sha1 "ee6183873be7cabdd0bba7deecf893ced10ca8b1"))
+
+(file (name "{scheme-id}-{scheme-version}.jar")
+      (title "SISC: Second Interpreter of Scheme Code")
+      (note "Scheme implementation; source code")
+      (manual-original-url "http://prdownloads.sourceforge.net/sisc/{scheme-id}-{scheme-version}.jar")
+      (scheme-id "sisc")
+      (scheme-version "1.16.6")
+      (size "1418512")
+      (sha1 "3301ede761cbb8841f457c50ea5ffccf02014777"))
 
 (file (name "slib-{version}.tar.gz")
       (title "SLIB")
