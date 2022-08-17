@@ -273,6 +273,14 @@
       (size 32313134)
       (sha1 "867c82cc3879e37dcb0188ef1c08915afaac42a9"))
 
+(file (name "{scheme-id}-20110618-repo.git.tar.gz")
+      (title "Elk")
+      (note "Scheme implementation; svn to git conversion from Lassi Kortela")
+      (original-url "https://misc.lassi.io/2022/{name}")
+      (scheme-id "elk")
+      (size 5552791)
+      (sha1 "5c5a0556aa7a2a78e2704e282c3d62f30235ec14"))
+
 (file (name "{scheme-id}-20110618-repo.svndump.gz")
       (title "Elk")
       (note "Scheme implementation; Subversion repository from svn.zoy.org/elk")
