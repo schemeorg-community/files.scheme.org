@@ -1519,6 +1519,27 @@
       (size 3581675)
       (sha1 "3400d1aa073649a60caf2907f5af1ad52f77f3ff"))
 
+(file (name "r3rs.tar")
+      (title "Revised^3 Report on the Algorithmic Language Scheme")
+      (note "TeX source")
+      (original-url "https://groups.csail.mit.edu/mac/ftpdir/scheme-reports/{name}")
+      (size 307200)
+      (sha1 "d0bce8c80875f7a444fcb14a123388c1d795b5f2"))
+
+(file (name "r4rs.tar")
+      (title "Revised^4 Report on the Algorithmic Language Scheme")
+      (note "TeX source")
+      (original-url "https://groups.csail.mit.edu/mac/ftpdir/scheme-reports/{name}")
+      (size 430080)
+      (sha1 "37517ddef86360540aae1880564df963fdfff6ec"))
+
+(file (name "r5rs.tar")
+      (title "Revised^5 Report on the Algorithmic Language Scheme")
+      (note "TeX source")
+      (original-url "https://groups.csail.mit.edu/mac/ftpdir/scheme-reports/{name}")
+      (size 348160)
+      (sha1 "e0249c7a22cfaa46b40b28572ca45ecdcc9da849"))
+
 (file (name "rabbit.lsp")
       (title "Rabbit")
       (note "source code from the paper Rabbit: a compiler for Scheme")
