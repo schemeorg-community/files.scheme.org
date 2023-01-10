@@ -1772,6 +1772,13 @@
       (size 3951356)
       (sha1 "b2d02b6ddac56e566d170b9c916f11dbd182390a"))
 
+(file (name "schemers.org-20230110.tgz")
+      (title "Schemers.org")
+      (note "Final website snapshot from Shriram Krishnamurthi")
+      (original-url "https://misc.lassi.io/2023/{name}")
+      (size 1609734)
+      (sha1 "b2ce2f884321b4e89eda5ecf4ad2914565c6da23"))
+
 (file (name "{scheme-id}-{scheme-version}.zip")
       (title "SCM")
       (note "Scheme implementation; source code")
