@@ -893,6 +893,13 @@
       (size 3088369)
       (sha1 "02a5da30d97730391970afa6a5c2a9de16eee3a4"))
 
+(file (name "mfc40dll.zip")
+      (title "Microsoft Visual C++ Redistributable")
+      (note "Windows binary (32-bit)")
+      (old-original-url "http://www.cs.bgu.ac.il:80/~elad/GALAPAGOS/{name}")
+      (original-url "https://web.archive.org/web/{archive-date}/{old-original-url}")
+      (archive-date "20010614210623"))
+
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
       (title "Mini-Scheme (fork by Akira Kida)")
       (note "Scheme implementation; source code")
