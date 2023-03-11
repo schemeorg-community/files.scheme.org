@@ -550,7 +550,9 @@
       (original-url "https://web.archive.org/web/{archive-date}/{old-original-url}")
       (archive-date "19970806123128")
       (package "galapagos")
-      (version "1.0"))
+      (version "1.0")
+      (size 537304)
+      (sha1 "dd75a912e9ca5e1b287764542d87b0d5e3a314f5"))
 
 (file (name "gps10src.zip")
       (title "Galapagos")
@@ -559,7 +561,9 @@
       (original-url "https://web.archive.org/web/{archive-date}/{old-original-url}")
       (archive-date "19970806123709")
       (package "galapagos")
-      (version "1.0"))
+      (version "1.0")
+      (size 734760)
+      (sha1 "42db6b1a369bbad69d295916ad28b7d595e0fd39"))
 
 (file (name "{package}-{version}.tar")
       (package "GScheme")
@@ -898,7 +902,9 @@
       (note "Windows binary (32-bit)")
       (old-original-url "http://www.cs.bgu.ac.il:80/~elad/GALAPAGOS/{name}")
       (original-url "https://web.archive.org/web/{archive-date}/{old-original-url}")
-      (archive-date "20010614210623"))
+      (archive-date "20010614210623")
+      (size 442465)
+      (sha1 "e01dc8deb37184c503161fd8ca3644c0c37b2b42"))
 
 (file (name "{scheme-id}-{scheme-version}.tar.gz")
       (title "Mini-Scheme (fork by Akira Kida)")
