@@ -273,6 +273,15 @@
       (size 32313134)
       (sha1 "867c82cc3879e37dcb0188ef1c08915afaac42a9"))
 
+(file (name "csv{scheme-version}.tar.gz")
+      (title "Chez Scheme")
+      (note "Scheme implementation; source code")
+      (original-url "https://github.com/cisco/ChezScheme/releases/download/v{scheme-version}/{name}")
+      (scheme-id "chezscheme")
+      (scheme-version "9.5.8")
+      (size 35487100)
+      (sha1 "5c392963dec2f6cdff376b97708d92fb70bf3bc9"))
+
 (file (name "{scheme-id}-20110618-repo.git.tar.gz")
       (title "Elk")
       (note "Scheme implementation; svn to git conversion from Lassi Kortela")
