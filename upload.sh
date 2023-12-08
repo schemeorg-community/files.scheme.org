@@ -5,5 +5,5 @@ cd "$(dirname "$0")"
 set -x
 curl --location --fail --silent --show-error -o www/schemeorg.css \
     https://www.scheme.org/schemeorg.css
-rsync -crv www/ alpha.servers.scheme.org:/production/files/www/
-rsync -rv --size-only files/ alpha.servers.scheme.org:/production/files/www/
+rsync -crv www/ scheme.org:/var/www/files.scheme.org/
+rsync -rv --size-only files/ scheme.org:/var/www/files.scheme.org/
