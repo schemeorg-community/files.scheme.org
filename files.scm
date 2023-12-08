@@ -561,6 +561,13 @@
       (size 7244347)
       (sha1 "ad5e15021764b733ec913cca8b77c9a53d4ee997"))
 
+(file (name "ggc-rel-0-17.tgz")
+      (title "Gauche Garbage Collection")
+      (note "Miscellaneous libraries for Gauche; source code")
+      (original-url "https://sourceforge.net/projects/gauchegc/files/{name}/download")
+      (size 280343)
+      (sha1 "4aa6adfe26f037c05a7523f17177dcb6b4ca31b9"))
+
 (file (name "gps10bin.zip")
       (title "Galapagos")
       (note "Scheme implementation; Windows binary (32-bit)")
