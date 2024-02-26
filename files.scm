@@ -255,6 +255,15 @@
       (size 4052305)
       (sha1 "3456f2c60b378ef1f6fa6b8d1d31eb05a1d82dcb"))
 
+(file (name "{scheme-id}-{scheme-version}.tar.gz")
+      (title "CHICKEN")
+      (note "Scheme implementation; source code")
+      (original-url "https://code.call-cc.org/releases/{scheme-version}/{name}")
+      (scheme-id "chicken")
+      (scheme-version "5.3.0")
+      (size 4069549)
+      (sha1 "26d5418f36b757179fdf915097350d2f197a615a"))
+
 (file (name "csv{scheme-version}.tar.gz")
       (title "Chez Scheme")
       (note "Scheme implementation; source code")
